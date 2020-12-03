@@ -1,0 +1,16 @@
+/home/lolomarka/study/otherlab/projects/study/OOPLab9/OOPlab9/bin/Debug/net5.0/OOPlab9
+/home/lolomarka/study/otherlab/projects/study/OOPLab9/OOPlab9/bin/Debug/net5.0/OOPlab9.deps.json
+/home/lolomarka/study/otherlab/projects/study/OOPLab9/OOPlab9/bin/Debug/net5.0/OOPlab9.runtimeconfig.json
+/home/lolomarka/study/otherlab/projects/study/OOPLab9/OOPlab9/bin/Debug/net5.0/OOPlab9.runtimeconfig.dev.json
+/home/lolomarka/study/otherlab/projects/study/OOPLab9/OOPlab9/bin/Debug/net5.0/OOPlab9.dll
+/home/lolomarka/study/otherlab/projects/study/OOPLab9/OOPlab9/bin/Debug/net5.0/ref/OOPlab9.dll
+/home/lolomarka/study/otherlab/projects/study/OOPLab9/OOPlab9/bin/Debug/net5.0/OOPlab9.pdb
+/home/lolomarka/study/otherlab/projects/study/OOPLab9/OOPlab9/obj/Debug/net5.0/OOPlab9.csprojAssemblyReference.cache
+/home/lolomarka/study/otherlab/projects/study/OOPLab9/OOPlab9/obj/Debug/net5.0/OOPlab9.GeneratedMSBuildEditorConfig.editorconfig
+/home/lolomarka/study/otherlab/projects/study/OOPLab9/OOPlab9/obj/Debug/net5.0/OOPlab9.AssemblyInfoInputs.cache
+/home/lolomarka/study/otherlab/projects/study/OOPLab9/OOPlab9/obj/Debug/net5.0/OOPlab9.AssemblyInfo.cs
+/home/lolomarka/study/otherlab/projects/study/OOPLab9/OOPlab9/obj/Debug/net5.0/OOPlab9.csproj.CoreCompileInputs.cache
+/home/lolomarka/study/otherlab/projects/study/OOPLab9/OOPlab9/obj/Debug/net5.0/OOPlab9.dll
+/home/lolomarka/study/otherlab/projects/study/OOPLab9/OOPlab9/obj/Debug/net5.0/ref/OOPlab9.dll
+/home/lolomarka/study/otherlab/projects/study/OOPLab9/OOPlab9/obj/Debug/net5.0/OOPlab9.pdb
+/home/lolomarka/study/otherlab/projects/study/OOPLab9/OOPlab9/obj/Debug/net5.0/OOPlab9.genruntimeconfig.cache

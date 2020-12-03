@@ -1,0 +1,13 @@
+/home/lolomarka/study/otherlab/projects/study/OOPPractice6/bin/Debug/netcoreapp3.1/OOPPractice6
+/home/lolomarka/study/otherlab/projects/study/OOPPractice6/bin/Debug/netcoreapp3.1/OOPPractice6.deps.json
+/home/lolomarka/study/otherlab/projects/study/OOPPractice6/bin/Debug/netcoreapp3.1/OOPPractice6.runtimeconfig.json
+/home/lolomarka/study/otherlab/projects/study/OOPPractice6/bin/Debug/netcoreapp3.1/OOPPractice6.runtimeconfig.dev.json
+/home/lolomarka/study/otherlab/projects/study/OOPPractice6/bin/Debug/netcoreapp3.1/OOPPractice6.dll
+/home/lolomarka/study/otherlab/projects/study/OOPPractice6/bin/Debug/netcoreapp3.1/OOPPractice6.pdb
+/home/lolomarka/study/otherlab/projects/study/OOPPractice6/obj/Debug/netcoreapp3.1/OOPPractice6.csprojAssemblyReference.cache
+/home/lolomarka/study/otherlab/projects/study/OOPPractice6/obj/Debug/netcoreapp3.1/OOPPractice6.AssemblyInfoInputs.cache
+/home/lolomarka/study/otherlab/projects/study/OOPPractice6/obj/Debug/netcoreapp3.1/OOPPractice6.AssemblyInfo.cs
+/home/lolomarka/study/otherlab/projects/study/OOPPractice6/obj/Debug/netcoreapp3.1/OOPPractice6.csproj.CoreCompileInputs.cache
+/home/lolomarka/study/otherlab/projects/study/OOPPractice6/obj/Debug/netcoreapp3.1/OOPPractice6.dll
+/home/lolomarka/study/otherlab/projects/study/OOPPractice6/obj/Debug/netcoreapp3.1/OOPPractice6.pdb
+/home/lolomarka/study/otherlab/projects/study/OOPPractice6/obj/Debug/netcoreapp3.1/OOPPractice6.genruntimeconfig.cache

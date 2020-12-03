@@ -1,0 +1,13 @@
+/home/lolomarka/projects/study/OOP.Practice1/z2/bin/Debug/netcoreapp3.1/z2
+/home/lolomarka/projects/study/OOP.Practice1/z2/bin/Debug/netcoreapp3.1/z2.deps.json
+/home/lolomarka/projects/study/OOP.Practice1/z2/bin/Debug/netcoreapp3.1/z2.runtimeconfig.json
+/home/lolomarka/projects/study/OOP.Practice1/z2/bin/Debug/netcoreapp3.1/z2.runtimeconfig.dev.json
+/home/lolomarka/projects/study/OOP.Practice1/z2/bin/Debug/netcoreapp3.1/z2.dll
+/home/lolomarka/projects/study/OOP.Practice1/z2/bin/Debug/netcoreapp3.1/z2.pdb
+/home/lolomarka/projects/study/OOP.Practice1/z2/obj/Debug/netcoreapp3.1/z2.csprojAssemblyReference.cache
+/home/lolomarka/projects/study/OOP.Practice1/z2/obj/Debug/netcoreapp3.1/z2.AssemblyInfoInputs.cache
+/home/lolomarka/projects/study/OOP.Practice1/z2/obj/Debug/netcoreapp3.1/z2.AssemblyInfo.cs
+/home/lolomarka/projects/study/OOP.Practice1/z2/obj/Debug/netcoreapp3.1/z2.csproj.CoreCompileInputs.cache
+/home/lolomarka/projects/study/OOP.Practice1/z2/obj/Debug/netcoreapp3.1/z2.dll
+/home/lolomarka/projects/study/OOP.Practice1/z2/obj/Debug/netcoreapp3.1/z2.pdb
+/home/lolomarka/projects/study/OOP.Practice1/z2/obj/Debug/netcoreapp3.1/z2.genruntimeconfig.cache

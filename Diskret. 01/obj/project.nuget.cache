@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "evfzQwGvnD3zKufYtDURWYN93P+bYqXO+fL7jYWqroatpdmdaDD8JzRZDhwcjWGZg8rI7sry9pnj7E1g9E4kwg==",
+  "success": true,
+  "projectFilePath": "/home/lolomarka/study/otherlab/projects/study/Diskret. 01/Diskret. 01.csproj",
+  "expectedPackageFiles": [
+    "/home/lolomarka/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512",
+    "/home/lolomarka/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.9/microsoft.netcore.app.host.linux-x64.3.1.9.nupkg.sha512"
+  ],
+  "logs": []
+}
