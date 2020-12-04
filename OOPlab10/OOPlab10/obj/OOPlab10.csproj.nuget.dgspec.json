@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/lolomarka/study/otherlab/projects/study/OOPlab10/OOPlab10/OOPlab10.csproj": {}
+    "C:\\repos\\study\\OOPlab10\\OOPlab10\\OOPlab10.csproj": {}
   },
   "projects": {
-    "/home/lolomarka/study/otherlab/projects/study/OOPlab10/OOPlab10/OOPlab10.csproj": {
+    "C:\\repos\\study\\OOPlab10\\OOPlab10\\OOPlab10.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lolomarka/study/otherlab/projects/study/OOPlab10/OOPlab10/OOPlab10.csproj",
+        "projectUniqueName": "C:\\repos\\study\\OOPlab10\\OOPlab10\\OOPlab10.csproj",
         "projectName": "OOPlab10",
-        "projectPath": "/home/lolomarka/study/otherlab/projects/study/OOPlab10/OOPlab10/OOPlab10.csproj",
-        "packagesPath": "/home/lolomarka/.nuget/packages/",
-        "outputPath": "/home/lolomarka/study/otherlab/projects/study/OOPlab10/OOPlab10/obj/",
+        "projectPath": "C:\\repos\\study\\OOPlab10\\OOPlab10\\OOPlab10.csproj",
+        "packagesPath": "C:\\Users\\marks\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\study\\OOPlab10\\OOPlab10\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/lolomarka/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\marks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

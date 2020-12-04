@@ -81,7 +81,7 @@ namespace OOPlab10
             name += GetRandomFirstName(generator,man) + " ";
             name += GetRandomMiddleName(generator,man) + " ";
             name += GetRandomSecondName(generator,man);
-
+            
             return name; 
         }
 
