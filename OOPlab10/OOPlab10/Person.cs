@@ -1,12 +1,15 @@
 using System.Threading.Tasks;
-using System.Xml.Xsl.Runtime;
+using System.Xml.Xsl;
 using System.Security.Cryptography;
 using System.Net.Cache;
 using System;
 
 namespace OOPlab10
 {
-    public abstract class Person : IExecutable
+    /// <summary>
+    /// Класс - персона
+    /// </summary>
+    public class Person : IExecutable
     {
         public string name {get; set;}          //Имя персоны
         private int age {get; set;}              //Возраст персоны
@@ -16,6 +19,10 @@ namespace OOPlab10
     
 
         /*Конструкторы*/
+
+        /// <summary>
+        /// Пустой конструктор. Устанавливаются значения "по умолчанию"
+        /// </summary>
         public Person()
         {
             this.name = "Шеретов Марк Алексеевич";
@@ -23,6 +30,12 @@ namespace OOPlab10
             this.sex = 'М';
         }
 
+        /// <summary>
+        /// Конструктор с параметрами. 
+        /// </summary>
+        /// <param name="Name">Имя персоны.</param>
+        /// <param name="Age">Возраст персоны.</param>
+        /// <param name="Sex">Пол персоны(Мужской/Женский)</param>
         public Person(string Name, int Age, char Sex)
         {
             this.name = Name;
@@ -31,7 +44,12 @@ namespace OOPlab10
         }
 
         // свойства
+        
 
+        /// <summary>
+        /// свойство:  Пол персоны. На вход принимает литерал - "М" в любой форме, или "W"/"Ж" в любой форме. Если вводится другое, то заменяется на "-" 
+        /// </summary>
+        /// <value>Литерал</value>
         public char Sex 
         {
             get {return this.sex;}
@@ -47,6 +65,10 @@ namespace OOPlab10
             }    
         }
 
+        /// <summary>
+        /// свойство: Возраст персоны. На вход - целое число. Если возраст указан < 1, то в консоль выводится сообщение об ошибке
+        /// </summary>
+        /// <value>Целое число - возраст</value>
         public int Age 
         {
             get {return age;}
@@ -65,18 +87,29 @@ namespace OOPlab10
         }
 
         //Методы
-        
+        /// <summary>
+        /// Выводит в консоль строку, сформированную методом Info
+        /// </summary>
         public void ShowInfo()          //Вывод информации о персоне
         {
             Console.WriteLine(Info());
         } 
 
+
+        /// <summary>
+        /// Формирует строку, содержащию информацию об экземпляре класса Person
+        /// </summary>
+        /// <returns>Строка с информацией об экземпляре класса</returns>
         public virtual string Info()    //Строчка - информация о персоне
         {
             return $"Имя: {this.name}\nВозраст: {this.age}\nПол: {this.sex}";
         }
 
-
+        /// <summary>
+        /// Сравнение по возрасту
+        /// </summary>
+        /// <param name="o">объект для сравнения</param>
+        /// <returns>int - возраст, или пробрассывается ошибка(если object == null)</returns>
         public virtual int CompareTo(object o)
         {
             Person tmp = o as Person;
@@ -86,16 +119,32 @@ namespace OOPlab10
                 throw new Exception("Ошибка сравнения");
         }
 
+
+        /// <summary>
+        /// Поверхностное копирования
+        /// </summary>
+        /// <returns>Неполная копия объекта</returns>
         public virtual object ShallowCopy()
         {
             return MemberwiseClone();
         }
 
+
+        /// <summary>
+        /// Создаёт клон объекта
+        /// </summary>
+        /// <returns>Полная копия объекта, в строчке name в начале добавлено: "Клон "</returns>
         public virtual object Clone()
         {
             return new Person("Клон " + this.name, Age, Sex);
         }
 
+
+        /// <summary>
+        /// Сравнение объектов.
+        /// </summary>
+        /// <param name="obj">Объект для сравнения с этим инстансом</param>
+        /// <returns>true - если совпадает/false, если не совпадает.</returns>
         public override bool Equals(object obj)
         {
             if((obj == null) || !(GetType().Equals(obj.GetType())))
@@ -105,10 +154,14 @@ namespace OOPlab10
             else
             {
                 Person p = (Person) obj;
-                return this.name.Equals(p.Surname) && Age == p.Age && Sex == p.Sex;
+                return this.name.Equals(p.name) && Age == p.Age && Sex == p.Sex;
             }
         }
 
+        /// <summary>
+        /// Возвращает HashCode объекта(построено по значению поля name)
+        /// </summary>
+        /// <returns>int - хэш-код инстанса.</returns>
         public override int GetHashCode()
         {
             return this.name.GetHashCode();
