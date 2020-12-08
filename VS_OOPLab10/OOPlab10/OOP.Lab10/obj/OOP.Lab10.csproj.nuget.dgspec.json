@@ -1,0 +1,50 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\repos\\study\\VS_OOPLab10\\OOPlab10\\OOP.Lab10\\OOP.Lab10.csproj": {}
+  },
+  "projects": {
+    "C:\\repos\\study\\VS_OOPLab10\\OOPlab10\\OOP.Lab10\\OOP.Lab10.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\study\\VS_OOPLab10\\OOPlab10\\OOP.Lab10\\OOP.Lab10.csproj",
+        "projectName": "OOP.Lab10",
+        "projectPath": "C:\\repos\\study\\VS_OOPLab10\\OOPlab10\\OOP.Lab10\\OOP.Lab10.csproj",
+        "packagesPath": "C:\\Users\\marks\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\study\\VS_OOPLab10\\OOPlab10\\OOP.Lab10\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,13 +1,19 @@
+using System.Threading.Tasks;
+using System.Xml.Xsl.Runtime;
+using System.Security.Cryptography;
+using System.Net.Cache;
 using System;
 
 namespace OOPlab10
 {
-    public abstract class Person
+    public abstract class Person : IExecutable
     {
         public string name {get; set;}          //Имя персоны
         private int age {get; set;}              //Возраст персоны
         private readonly char sex;               //Пол персоны
 
+
+    
 
         /*Конструкторы*/
         public Person()
@@ -41,6 +47,23 @@ namespace OOPlab10
             }    
         }
 
+        public int Age 
+        {
+            get {return age;}
+            set 
+            {
+                if(value < 1)
+                {
+                    Console.WriteLine($"Попытка присвоить возраст: {value}, Присвоено значение - 1.");
+                    age = 1;                    
+                }
+                else
+                {
+                    age = value;
+                }
+            }
+        }
+
         //Методы
         
         public void ShowInfo()          //Вывод информации о персоне
@@ -53,5 +76,42 @@ namespace OOPlab10
             return $"Имя: {this.name}\nВозраст: {this.age}\nПол: {this.sex}";
         }
 
+
+        public virtual int CompareTo(object o)
+        {
+            Person tmp = o as Person;
+            if(tmp != null)
+                return Age.CompareTo(tmp.Age);
+            else
+                throw new Exception("Ошибка сравнения");
+        }
+
+        public virtual object ShallowCopy()
+        {
+            return MemberwiseClone();
+        }
+
+        public virtual object Clone()
+        {
+            return new Person("Клон " + this.name, Age, Sex);
+        }
+
+        public override bool Equals(object obj)
+        {
+            if((obj == null) || !(GetType().Equals(obj.GetType())))
+            {
+                return false;
+            }
+            else
+            {
+                Person p = (Person) obj;
+                return this.name.Equals(p.Surname) && Age == p.Age && Sex == p.Sex;
+            }
+        }
+
+        public override int GetHashCode()
+        {
+            return this.name.GetHashCode();
+        }
     }
 }
