@@ -93,7 +93,7 @@ namespace OOPlab10
         /// <returns>Полная копия объекта</returns>
         public override object Clone()
         {
-            return new Engineer("Клон " + this.name, this.Age, this.Sex, this.Position,this.university,this.numOfSubdivision);
+            return new Engineer("Клон " + this.Name, this.Age, this.Sex, this.Position,this.university,this.numOfSubdivision);
         }
 
 
@@ -111,7 +111,7 @@ namespace OOPlab10
             else
             {
                 Engineer engineer = (Engineer) obj;
-                return this.name.Equals(engineer.name) && Age == engineer.Age &&
+                return this.Name.Equals(engineer.Name) && Age == engineer.Age &&
                 Sex == engineer.Sex && Position.Equals(engineer.Position) &&
                 university.Equals(engineer.university) && numOfSubdivision == engineer.numOfSubdivision;
             }

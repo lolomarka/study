@@ -67,7 +67,7 @@ namespace OOPlab10
         /// <returns>Новый объект - полная копия этого объекта</returns>
         public override object Clone()
         {
-            return new Employee("Клон " + this.name,this.Age,this.Sex,this.position);
+            return new Employee("Клон " + this.Name,this.Age,this.Sex,this.position);
         }
 
         /// <summary>
@@ -85,7 +85,7 @@ namespace OOPlab10
             {
                 Employee e = (Employee)obj;
 
-                return name.Equals(e.name) && Age == e.Age
+                return Name.Equals(e.Name) && Age == e.Age
                 && Sex == e.Sex && position.Equals(e.position);
             }
         }

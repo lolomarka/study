@@ -11,12 +11,12 @@ namespace OOPlab10
     /// </summary>
     public class Person : IExecutable
     {
-        public string name {get; set;}          //Имя персоны
+        private string name {get; set;}          //Имя персоны
         private int age {get; set;}              //Возраст персоны
         private readonly char sex;               //Пол персоны
 
 
-    
+
 
         /*Конструкторы*/
 
@@ -45,6 +45,7 @@ namespace OOPlab10
 
         // свойства
         
+        public string Name{get;set;}
 
         /// <summary>
         /// свойство:  Пол персоны. На вход принимает литерал - "М" в любой форме, или "W"/"Ж" в любой форме. Если вводится другое, то заменяется на "-" 

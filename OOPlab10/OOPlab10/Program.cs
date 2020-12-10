@@ -152,14 +152,14 @@ namespace OOPlab10
                 {
                     if(persArr[i].Sex == 'М')
                     {
-                        Console.WriteLine(persArr[i].name);
+                        Console.WriteLine(persArr[i].Name);
                     }
                 }
                 else
                 {
                     if(persArr[i].Sex == 'Ж')
                     {
-                        Console.WriteLine(persArr[i].name);
+                        Console.WriteLine(persArr[i].Name);
                     }
                 }
             }

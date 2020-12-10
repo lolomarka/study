@@ -81,7 +81,7 @@ namespace OOPlab10
         /// <returns>Полная копия объекта</returns>
         public override object Clone()
         {
-            return new Administration("Клон " + this.name, this.Age, this.Sex, this.Position, this.NumOfDeputy);
+            return new Administration("Клон " + this.Name, this.Age, this.Sex, this.Position, this.NumOfDeputy);
         }
 
         
@@ -97,7 +97,7 @@ namespace OOPlab10
             else
             {
                 Administration administration = (Administration) obj;
-                return this.name.Equals(administration.name) && Age == administration.Age && 
+                return this.Name.Equals(administration.Name) && Age == administration.Age && 
                 Sex == administration.Sex && Position.Equals(administration.Position) &&
                 numOfDeputy == administration.numOfDeputy;
             }
