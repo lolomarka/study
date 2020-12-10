@@ -2,7 +2,7 @@ using System;
 
 namespace OOPlab10
 {
-    public interface IExecutable
+    public interface IExecutable : IComparable, ICloneable
     {
         /// <summary>
         /// Вывод строчки информации на консоль
@@ -13,5 +13,7 @@ namespace OOPlab10
         /// </summary>
         /// <returns>Строчку с информацией об экземпляре класса</returns>
         string Info();
+
+        
     }
 }

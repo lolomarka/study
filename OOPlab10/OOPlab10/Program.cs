@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace OOPlab10
 {
@@ -28,7 +31,11 @@ namespace OOPlab10
             Wait();
             Query2();       //Вывести количество инженеров на заводе
             Wait();
-            Query3();       //Вывести количество инженеров в подразделение    
+            Query3();       //Вывести количество инженеров в подразделение  
+
+
+
+              
         }
 
         static Person[] GenerateExmpls(int length)    //Генератор записей об Персонах
@@ -240,12 +247,60 @@ namespace OOPlab10
             Wait();
         }
 
-
+        static void Print(string str)
+        {
+            Console.WriteLine(str);
+        }
 
         static void Wait()
         {
             Console.WriteLine("Нажмите любую кнопку для продолжения...");
             Console.ReadKey();
         }
-    }
+    
+        public static void SortByAge(ref List<Person> list)
+        {
+            Person[] a = list.ToArray();
+            Array.Sort(a);
+            list = a.ToList();
+
+            Print("Список отсортирован по возрасту");
+        }
+
+
+        public static void SortWithComparer(ref List<Person> list, IComparer comparer)
+        {
+            Person[] a = list.ToArray();
+            Array.Sort(a,comparer);
+            list = a.ToList();
+
+            Print("Список отсортирован");
+        }
+    
+        public static int SearchName(List<Person> list, IComparer comparer, string Name)
+        {
+            SortWithComparer(ref list, comparer);
+
+            Person[] arr = list.ToArray();
+
+            int index = Array.BinarySearch(arr,new Person(Name, 1, 'М'), comparer);
+
+            if(index > -1)
+            {
+                Print($"Номер в списке: {index + 1}");
+                list[index].ShowInfo();
+                return index;
+            }
+            else
+            {
+                Print("ФИО не найдено");
+                return -1;
+            }
+        }
+
+        
+    
+    
+    
+    }   
 }
