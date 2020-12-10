@@ -121,7 +121,7 @@ namespace OOPlab10
 
 
         /// <summary>
-        /// Поверхностное копирования
+        /// Поверхностное копирование
         /// </summary>
         /// <returns>Неполная копия объекта</returns>
         public virtual object ShallowCopy()
@@ -159,12 +159,12 @@ namespace OOPlab10
         }
 
         /// <summary>
-        /// Возвращает HashCode объекта(построено по значению поля name)
+        /// Возвращает HashCode объекта
         /// </summary>
         /// <returns>int - хэш-код инстанса.</returns>
         public override int GetHashCode()
         {
-            return this.name.GetHashCode();
+            return this.name.GetHashCode() ^ Age ^ Sex;
         }
     }
 }
