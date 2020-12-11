@@ -45,7 +45,7 @@ namespace OOPlab10
 
         // свойства
         
-        public string Name{get;set;}
+        public string Name{get{return this.name;} set{ this.name = value;}}
 
         /// <summary>
         /// свойство:  Пол персоны. На вход принимает литерал - "М" в любой форме, или "W"/"Ж" в любой форме. Если вводится другое, то заменяется на "-" 
@@ -89,19 +89,32 @@ namespace OOPlab10
 
         //Методы
         /// <summary>
-        /// Выводит в консоль строку, сформированную методом Info
+        /// Выводит в консоль строку, сформированную виртуальным методом Info
         /// </summary>
         public void ShowInfo()          //Вывод информации о персоне
         {
             Console.WriteLine(Info());
         } 
 
+        /// <summary>
+        /// Выводит в консоль строку, сформированную невиртуальным методом Info_No_Virt
+        /// </summary>
+        public void ShowInfo_No_Virt()
+        {
+            Console.WriteLine(Info_No_Virt());
+        }
 
         /// <summary>
         /// Формирует строку, содержащию информацию об экземпляре класса Person
         /// </summary>
         /// <returns>Строка с информацией об экземпляре класса</returns>
         public virtual string Info()    //Строчка - информация о персоне
+        {
+            return $"Имя: {this.name}\nВозраст: {this.age}\nПол: {this.sex}";
+        }
+
+
+        public string Info_No_Virt()
         {
             return $"Имя: {this.name}\nВозраст: {this.age}\nПол: {this.sex}";
         }
