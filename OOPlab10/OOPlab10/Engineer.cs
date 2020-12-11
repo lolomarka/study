@@ -19,6 +19,7 @@ namespace OOPlab10
         /// <returns>Шаблонный инстанс</returns>
         public Engineer() : base()
         {
+            this.Position = "Инженер";
             this.university = "ПНИПУ";
             this.numOfSubdivision = 1;
         }
@@ -48,7 +49,13 @@ namespace OOPlab10
         public int NumOfSubdivision
         {
             get{ return this.numOfSubdivision;}
-            set{ this.numOfSubdivision = Math.Abs(value);}
+            set { 
+                
+                if(value == 0) 
+                    this.numOfSubdivision = 1;
+                else
+                    this.numOfSubdivision = Math.Abs(value);
+                }
         }
 
 

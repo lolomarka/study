@@ -5,12 +5,12 @@ using System.Linq;
 
 namespace OOPlab10
 {
-    class Program
+    public class Program
     {
         static List<Person>        persList = null;
         static List<IExecutable>   IExecList = null;
 
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             
 
@@ -25,15 +25,42 @@ namespace OOPlab10
             Wait();
             CreateIExecutableList();    //Создать список IExecutable
             PrintIExecutableList();     //Печать созданного списка
-            
+            SortExample();          //Пример сортировки с IComparer
+            Wait();
+            SearchExample();
+            Wait();
         }
 
-        static void CreateIExecutableList()
+        public static void SearchExample()
+        {
+            persList = null;
+            GenerateList(out persList,5,5,5);
+
+            PrintList(persList);
+
+            Print("Пример работы поиска:\nВведите имя для поиска(из списка выше):");
+            SearchName(persList, new SortByName(), Console.ReadLine());
+
+        }
+
+        public static void SortExample()
+        {
+            persList = null;
+            GenerateList(out persList,5,5,5);
+
+            PrintList(persList);
+
+            //Пример сортировки
+            SortWithComparer(ref persList, new SortByName());
+            PrintList(persList);
+        }
+
+        public static void CreateIExecutableList()
         {
             GenerateList(out IExecList,3,4,3);
         }
 
-        static void PrintIExecutableList()
+        public static void PrintIExecutableList()
         {
             PrintList(IExecList);
         }
@@ -112,7 +139,7 @@ namespace OOPlab10
             return false;
         }
 
-        static void Query1(bool man) //Имена всех лиц мужского (женского) пола.
+        public static void Query1(bool man) //Имена всех лиц мужского (женского) пола.
         {
             persList = null;
             GenerateList(out persList,5,5,5);
@@ -145,7 +172,7 @@ namespace OOPlab10
         /// Печать списка Person
         /// </summary>
         /// <param name="lst">Список Person для печати</param>
-        static void PrintList(List<Person> lst)
+        public static void PrintList(List<Person> lst)
         {
             if(IsNullOrEmpty(lst)) return;
             Console.WriteLine("Список персон: ");
@@ -166,7 +193,7 @@ namespace OOPlab10
         /// Печать списка IExecutable
         /// </summary>
         /// <param name="lst">Список IExecutable для печати</param>
-        static void PrintList(List<IExecutable> lst)
+        public static void PrintList(List<IExecutable> lst)
         {
             if(IsNullOrEmpty(lst)) return;
             Console.WriteLine("Список персон: ");
@@ -191,7 +218,7 @@ namespace OOPlab10
         /// Печать массива персон
         /// </summary>
         /// <param name="Arr">Массив персон на печать</param>
-        static void PrintArrOfPerson(Person[] Arr)
+        public static void PrintArrOfPerson(Person[] Arr)
         {
             for(int i = 0; i < Arr.Length;i++)
             {   
@@ -204,7 +231,7 @@ namespace OOPlab10
         /// Печать массива IExecutable
         /// </summary>
         /// <param name="Arr">Массив IExecutable на печать</param>
-        static void PrintArrOfIExecutable(IExecutable[] Arr)
+        public static void PrintArrOfIExecutable(IExecutable[] Arr)
         {
             for(int i = 0; i < Arr.Length;i++)
             {   
@@ -214,7 +241,7 @@ namespace OOPlab10
         }
 
 
-        static void Query2()//Сколько инженеров на заводе
+        public static void Query2()//Сколько инженеров на заводе
         {
             persList = null;
 
@@ -237,7 +264,7 @@ namespace OOPlab10
             Console.WriteLine($"Кол-во инженеров на заводе: {cnt}");
         }
 
-        static void Query3() // Сколько инженеров трудятся в подразделении
+        public static void Query3() // Сколько инженеров трудятся в подразделении
         {
             persList = null;
 
@@ -279,7 +306,7 @@ namespace OOPlab10
             }
         }
 
-        static void Print(string str)
+        public static void Print(string str)
         {
             Console.WriteLine(str);
         }

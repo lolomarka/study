@@ -67,7 +67,7 @@ namespace OOPlab10
             
             age = RandInt(18,65);
 
-            position = positions[RandInt(0,positions.Length-1)];
+            
 
             university += " " + faculties[RandInt(0,faculties.Length-1)];
             subdivision = RandInt(1,16);

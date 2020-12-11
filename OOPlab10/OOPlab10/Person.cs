@@ -25,9 +25,9 @@ namespace OOPlab10
         /// </summary>
         public Person()
         {
-            this.name = "Шеретов Марк Алексеевич";
-            this.age = 19;
-            this.sex = 'М';
+            Name = "Шеретов Марк Алексеевич";
+            Age = 19;
+            Sex = 'М';
         }
 
         /// <summary>

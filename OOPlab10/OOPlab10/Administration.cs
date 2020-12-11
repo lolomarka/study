@@ -15,6 +15,7 @@ namespace OOPlab10
         /// <returns></returns>
         public Administration () : base()
         {
+            this.Position = "Работник администрации";
             this.numOfDeputy = 1;
         }
 
@@ -41,7 +42,7 @@ namespace OOPlab10
         public int NumOfDeputy
         {
             get { return this.numOfDeputy;}
-            set { this.numOfDeputy = Math.Abs(value);}
+            set {this.numOfDeputy = Math.Abs(value);}
         }
 
         //Методы

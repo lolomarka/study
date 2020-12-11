@@ -29,10 +29,9 @@ namespace OOPlab10
         /// <param name="Sex">Пол</param>
         /// <param name="Position">Позиция</param>
         /// <returns>ничего</returns>
-        public Employee(string Name,int Age,char Sex,/*string Company*/ string Position) : base(Name,Age,Sex)   // Перегружаем конструктор для использования конструкторов предка
+        public Employee(string Name,int Age,char Sex, string Position) : base(Name,Age,Sex)   //Перегружаем конструктор для использования конструкторов предка
         {
-            // this.company = Company;
-            this.position = Position;
+            this.Position = Position;
         }
 
         //Свойства
@@ -77,7 +76,7 @@ namespace OOPlab10
         /// <returns>true - одинаковы, false - неодинаковы</returns>
         public override bool Equals(object obj)
         {
-            if((obj == null) || (GetType().Equals(obj.GetType())))
+            if((obj == null) || !(GetType().Equals(obj.GetType())))
             {
                 return false;
             }
@@ -85,7 +84,7 @@ namespace OOPlab10
             {
                 Employee e = (Employee)obj;
 
-                return Name.Equals(e.Name) && Age == e.Age
+                return this.Name.Equals(e.Name) && Age == e.Age
                 && Sex == e.Sex && position.Equals(e.position);
             }
         }
