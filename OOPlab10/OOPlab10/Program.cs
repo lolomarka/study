@@ -8,7 +8,7 @@ namespace OOPlab10
     class Program
     {
         static List<Person>        persList = null;
-        //static List<IExecutable>   IExecList = null;
+        static List<IExecutable>   IExecList = null;
 
         static void Main(string[] args)
         {
@@ -22,7 +22,20 @@ namespace OOPlab10
             Query2();       //Вывести количество инженеров на заводе
             Wait();
             Query3();       //Вывести количество инженеров в подразделение  
+            Wait();
+            CreateIExecutableList();    //Создать список IExecutable
+            PrintIExecutableList();     //Печать созданного списка
+            
+        }
 
+        static void CreateIExecutableList()
+        {
+            GenerateList(out IExecList,3,4,3);
+        }
+
+        static void PrintIExecutableList()
+        {
+            PrintList(IExecList);
         }
 
         public static void GenerateList(out List<Person> lst, int EmployeeCount, int EngineerCount, int AdministrationCount)
@@ -166,7 +179,7 @@ namespace OOPlab10
                 Console.WriteLine();
             }
 
-            Print("Вызов невиртуального медота: ");
+            Print("Вызов невиртуального метода: ");
             foreach(Person elem in lst)
             {
                 elem.ShowInfo_No_Virt();
@@ -264,7 +277,6 @@ namespace OOPlab10
             {
                 Console.Write($"\nКол-во инженеров в подразделение №{i+1} = {subdArr[i]}\n");
             }
-            Wait();
         }
 
         static void Print(string str)
