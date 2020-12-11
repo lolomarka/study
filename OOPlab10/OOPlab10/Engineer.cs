@@ -75,7 +75,7 @@ namespace OOPlab10
             if(engineer != null)
                 return Age.CompareTo(engineer.Age);
             else
-                throw new Exception("Ошибка сравнения");
+                throw new ArgumentException();
         }
 
         /// <summary>

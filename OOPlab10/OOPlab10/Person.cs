@@ -130,7 +130,7 @@ namespace OOPlab10
             if(tmp != null)
                 return Age.CompareTo(tmp.Age);
             else
-                throw new Exception("Ошибка сравнения");
+                throw new ArgumentException();
         }
 
 

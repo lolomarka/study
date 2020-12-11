@@ -62,7 +62,7 @@ namespace OOPlab10
             if(administration != null)
                 return Age.CompareTo(administration.Age);
             else
-                throw new Exception("Ошибка сравнения");
+                throw new ArgumentException();
         }
 
         /// <summary>
