@@ -1,0 +1,16 @@
+C:\repos\study\VS_OOPLab10\OOPlab10\OOP.Lab10\obj\Debug\net5.0\OOP.Lab10.csprojAssemblyReference.cache
+C:\repos\study\VS_OOPLab10\OOPlab10\OOP.Lab10\obj\Debug\net5.0\OOP.Lab10.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\study\VS_OOPLab10\OOPlab10\OOP.Lab10\obj\Debug\net5.0\OOP.Lab10.AssemblyInfoInputs.cache
+C:\repos\study\VS_OOPLab10\OOPlab10\OOP.Lab10\obj\Debug\net5.0\OOP.Lab10.AssemblyInfo.cs
+C:\repos\study\VS_OOPLab10\OOPlab10\OOP.Lab10\obj\Debug\net5.0\OOP.Lab10.csproj.CoreCompileInputs.cache
+C:\repos\study\VS_OOPLab10\OOPlab10\OOP.Lab10\bin\Debug\net5.0\OOP.Lab10.exe
+C:\repos\study\VS_OOPLab10\OOPlab10\OOP.Lab10\bin\Debug\net5.0\OOP.Lab10.deps.json
+C:\repos\study\VS_OOPLab10\OOPlab10\OOP.Lab10\bin\Debug\net5.0\OOP.Lab10.runtimeconfig.json
+C:\repos\study\VS_OOPLab10\OOPlab10\OOP.Lab10\bin\Debug\net5.0\OOP.Lab10.runtimeconfig.dev.json
+C:\repos\study\VS_OOPLab10\OOPlab10\OOP.Lab10\bin\Debug\net5.0\OOP.Lab10.dll
+C:\repos\study\VS_OOPLab10\OOPlab10\OOP.Lab10\bin\Debug\net5.0\ref\OOP.Lab10.dll
+C:\repos\study\VS_OOPLab10\OOPlab10\OOP.Lab10\bin\Debug\net5.0\OOP.Lab10.pdb
+C:\repos\study\VS_OOPLab10\OOPlab10\OOP.Lab10\obj\Debug\net5.0\OOP.Lab10.dll
+C:\repos\study\VS_OOPLab10\OOPlab10\OOP.Lab10\obj\Debug\net5.0\ref\OOP.Lab10.dll
+C:\repos\study\VS_OOPLab10\OOPlab10\OOP.Lab10\obj\Debug\net5.0\OOP.Lab10.pdb
+C:\repos\study\VS_OOPLab10\OOPlab10\OOP.Lab10\obj\Debug\net5.0\OOP.Lab10.genruntimeconfig.cache
