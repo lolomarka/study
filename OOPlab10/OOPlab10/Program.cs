@@ -13,28 +13,42 @@ namespace OOPlab10
         public static void Main(string[] args)
         {
             
-
+            Print("Первый запрос: Вывести всех мужчин с завода");
             Wait();
             Query1(true);   //вывести мужиков из списка людей
+            Print("Первый запрос: Вывести всех женщин с завода");
             Wait();
             Query1(false);  //вывести женщин из списка людей
+            Print("Второй запрос: Вывести количество инженеров на заводе");
             Wait();
             Query2();       //Вывести количество инженеров на заводе
+            Print("Третий запрос: Количество инженеров в каждом подразделении");
             Wait();
             Query3();       //Вывести количество инженеров в подразделение  
+            Print("Пример создания списка IExecutable и дальнейший вывод её на печать");
             Wait();
             CreateIExecutableList();    //Создать список IExecutable
             PrintIExecutableList();     //Печать созданного списка
+
+            Print("Пример сортировки по имени");
+            Wait();
             SortExample();          //Пример сортировки с IComparer
+            
+            Print("Пример поиска по имени");
             Wait();
             SearchExample();
+            Print("Проверка поверхностного копирования");
             Wait();
+            CheckShallowCopy(); //Проверка поверхностного копирования
+            Print("Проверка клонирования");
+            Wait();
+            CheckClone();       //Проверка клонирования
         }
 
         public static void SearchExample()
         {
             persList = null;
-            GenerateList(out persList,5,5,5);
+            GenerateList(out persList,2,2,2);
 
             PrintList(persList);
 
@@ -46,7 +60,7 @@ namespace OOPlab10
         public static void SortExample()
         {
             persList = null;
-            GenerateList(out persList,5,5,5);
+            GenerateList(out persList,2,2,2);
 
             PrintList(persList);
 
@@ -64,7 +78,13 @@ namespace OOPlab10
         {
             PrintList(IExecList);
         }
-
+        /// <summary>
+        /// Генерация класса
+        /// </summary>
+        /// <param name="lst">Список для заполнения</param>
+        /// <param name="EmployeeCount">Работник</param>
+        /// <param name="EngineerCount">Инженер</param>
+        /// <param name="AdministrationCount">Администрация</param>
         public static void GenerateList(out List<Person> lst, int EmployeeCount, int EngineerCount, int AdministrationCount)
         {
             lst = new List<Person>();
@@ -142,7 +162,7 @@ namespace OOPlab10
         public static void Query1(bool man) //Имена всех лиц мужского (женского) пола.
         {
             persList = null;
-            GenerateList(out persList,5,5,5);
+            GenerateList(out persList,3,3,3);
 
             PrintList(persList);
 
@@ -245,7 +265,7 @@ namespace OOPlab10
         {
             persList = null;
 
-            GenerateList(out persList, 5, new Random().Next(3,10), 5);
+            GenerateList(out persList, 2, new Random().Next(3,10), 2);
 
             PrintList(persList);
             
@@ -356,6 +376,64 @@ namespace OOPlab10
             }
         }
 
-    
+        public static void CheckShallowCopy() //проверка поверхностного копирования
+        {
+            List<Person> list;
+            GenerateList(out list,1,1,1);
+            Employee emp = (Employee)list[0].ShallowCopy();
+            Administration adm = (Administration)list[2].ShallowCopy();
+            Engineer eng = (Engineer)list[1].ShallowCopy();
+            Print("-- Список");
+            foreach (Person p in list)
+            {
+                p.ShowInfo();
+            }
+            Print("-- Копии");
+            emp.ShowInfo();
+            adm.ShowInfo();
+            eng.ShowInfo();
+            Print("-- Изменение копии Administration (изменение кол-во заместителей на 5)");
+            adm.NumOfDeputy = 5;
+            Print("-- Список");
+            foreach (Person p in list)
+            {
+                p.ShowInfo();
+            }
+            Print("-- Копии");
+            emp.ShowInfo();
+            adm.ShowInfo();
+            eng.ShowInfo();
+        }
+
+        public static void CheckClone()//проверка глубокого клонирования
+        {
+            List<Person> list;
+            GenerateList(out list,1,1,1);
+            Employee emp = (Employee)list[0].Clone();
+            Administration adm = (Administration)list[2].Clone();
+            Engineer eng = (Engineer)list[1].Clone();
+            Print("-- Список");
+            foreach (Person p in list)
+            {
+                p.ShowInfo();
+            }
+            Print("-- Клоны");
+            emp.ShowInfo();
+            adm.ShowInfo();
+            eng.ShowInfo();
+            Print("-- Изменение копии Administration (изменение кол-во заместителей на 5)");
+            adm.NumOfDeputy = 5;
+            
+            Print("-- Список");
+            foreach (Person p in list)
+            {
+                p.ShowInfo();
+            }
+            Print("-- Клоны");
+            emp.ShowInfo();
+            adm.ShowInfo();
+            eng.ShowInfo();
+        }
+
     }   
 }
