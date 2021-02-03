@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using ReactiveUI;
 
-namespace OOPLAB7.ViewModels
+namespace Assets.ViewModels
 {
     public class ViewModelBase : ReactiveObject
     {

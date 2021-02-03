@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/lolomarka/study/otherlab/projects/study/OOP.Practice5/OOP.Practice5.csproj",
+      "projectUniqueName": "/home/lolomarka/study/OOP.Practice5/OOP.Practice5.csproj",
       "projectName": "OOP.Practice5",
-      "projectPath": "/home/lolomarka/study/otherlab/projects/study/OOP.Practice5/OOP.Practice5.csproj",
+      "projectPath": "/home/lolomarka/study/OOP.Practice5/OOP.Practice5.csproj",
       "packagesPath": "/home/lolomarka/.nuget/packages/",
-      "outputPath": "/home/lolomarka/study/otherlab/projects/study/OOP.Practice5/obj/",
+      "outputPath": "/home/lolomarka/study/OOP.Practice5/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/lolomarka/.nuget/NuGet/NuGet.Config"
@@ -30,6 +30,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -41,6 +42,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -51,12 +53,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[3.1.11, 3.1.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }

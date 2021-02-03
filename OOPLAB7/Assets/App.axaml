@@ -1,7 +1,7 @@
 <Application xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="using:OOPLAB7"
-             x:Class="OOPLAB7.App">
+             xmlns:local="using:Assets"
+             x:Class="Assets.App">
     <Application.DataTemplates>
         <local:ViewLocator/>
     </Application.DataTemplates>

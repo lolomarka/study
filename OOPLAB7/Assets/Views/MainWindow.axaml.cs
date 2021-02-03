@@ -2,7 +2,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 
-namespace OOPLAB7.Views
+namespace Assets.Views
 {
     public class MainWindow : Window
     {

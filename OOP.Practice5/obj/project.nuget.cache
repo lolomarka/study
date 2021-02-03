@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "PVv+xt0m4xl2K3BmBuPPPN8xdcpTuylHQUIiPlHHe0+azpJY2xqkPdtbmEAMVWPYFDAgImOpsNSx+/rJ/f9OKg==",
+  "dgSpecHash": "NF+EkmiDiM4mBhq03aUUnQz1ugZ/5RiMJKL+1KVGkulCtNpA8A0f4eGzcoIInm4/v550ct1d4oCvTIAj1Fa4Lg==",
   "success": true,
-  "projectFilePath": "/home/lolomarka/study/otherlab/projects/study/OOP.Practice5/OOP.Practice5.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/lolomarka/study/OOP.Practice5/OOP.Practice5.csproj",
+  "expectedPackageFiles": [
+    "/home/lolomarka/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/home/lolomarka/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/home/lolomarka/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.11/microsoft.netcore.app.host.linux-x64.3.1.11.nupkg.sha512"
+  ],
   "logs": []
 }

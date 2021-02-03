@@ -1,10 +1,10 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
-using OOPLAB7.ViewModels;
-using OOPLAB7.Views;
+using Assets.ViewModels;
+using Assets.Views;
 
-namespace OOPLAB7
+namespace Assets
 {
     public class App : Application
     {
