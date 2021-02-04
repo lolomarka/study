@@ -2,7 +2,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:vm="using:Assets.ViewModels"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450" x:Class="Assets.Views.MainWindow" Icon="/Assets/avalonia-logo.ico" Title="Assets" MinHeight="640" MinWidth="480" Height="640" Width="480" MaxHeight="800" MaxWidth="640">
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450" x:Class="Assets.Views.MainWindow" Icon="/Assets/avalonia-logo.ico" Title="Assets" MinHeight="640" MinWidth="480" Height="{Binding wHeight}" Width="{Binding wWidth}" MaxHeight="800" MaxWidth="640">
 
     <Design.DataContext>
         <vm:MainWindowViewModel/>
@@ -37,11 +37,15 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
-        <Button Grid.Row="1" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Top">Ручной ввод</Button>
-        <Button Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Top">ДСЧ</Button>
 
+        <!-- Разметка -->
+        <!-- Кнопки выбора способа ввода -->
+        <Button IsVisible="{Binding isVisibleButtons}" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Top">Ручной ввод</Button>
+        <Button IsVisible="{Binding isVisibleButtons}" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Top">ДСЧ</Button>
 
-        <TextBlock Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Stretch" Text="{Binding DataArray}"></TextBlock>
+        <TextBox IsVisible="{Binding isVisibleGroup1}" Grid.Row="2" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Stretch"></TextBox>
+
+        <TextBox IsVisible="{Binding isVisibleTextBox}" IsReadOnly="{Binding isReadOnly}" Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Stretch" Text="{Binding DataArray}"></TextBox>
 
     </Grid>
 </Window>
