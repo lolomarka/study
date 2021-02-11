@@ -17,6 +17,8 @@ namespace OOPLAB11
                 case 0:
                     Console.WriteLine("\tЗадание");
                     Console.WriteLine("1. Задание 1");
+                    Console.WriteLine("2. Задание 2");
+                    Console.WriteLine("3. Задание 3");
                     break;
                 case 1:
                     Console.WriteLine("\tЗадание 1\n\tQueue<T>");
@@ -33,6 +35,18 @@ namespace OOPLAB11
                     Console.WriteLine("11. Сортировать коллекцию");
                     Console.WriteLine("12. Поиск элемента в коллекции");
                     Console.WriteLine("13. Печать клонированной коллекции");
+                    break;
+                case 2://TODO: Заменить строчки
+                    Console.WriteLine("\tЗадание 2");
+                    Console.WriteLine("1. Демонстрация перегрузки инкременты и декременты");
+                    Console.WriteLine("2. Демонстрация перегрузки преобразования типов");
+                    Console.WriteLine("3. Демонстрация перегрузки операторов сравнения");
+                    break;
+                case 3://TODO: Заменить строчки
+                    Console.WriteLine("\tЗадание 3");
+                    Console.WriteLine("1. Создать массив");
+                    Console.WriteLine("2. Печать массива");
+                    Console.WriteLine("3. Вывести элемент с наименьшей площадью");
                     break;
                 default:
                     Console.WriteLine("Ошибка!");
@@ -56,6 +70,14 @@ namespace OOPLAB11
                 {
                     case 1:
                         Task1Menu();
+                        PrintMenu(0);
+                        break;
+                    case 2:
+                        Task2Menu();
+                        PrintMenu(0);
+                        break;
+                    case 3:
+                        Task3Menu();
                         PrintMenu(0);
                         break;
                     case 0:
@@ -232,5 +254,63 @@ namespace OOPLAB11
                 PrintMenu(1);
             }while(step != 0);
         }
+
+        static void Task2Menu()//TODO: Доделать, чтобы работало с визуальной частью из PrintMenu(2)
+        {
+            PrintMenu(2);
+            int step;
+
+            
+            do
+            {
+                step = Tools.InputNumInt(">> ","Ошибка ввода");
+                switch(step)
+                {
+                    case 1:
+                        
+                        break;
+                    case 2:
+                        
+                        break;
+                    case 3:
+                        
+                        break;
+                    default:
+                        return;
+                }
+
+                PrintMenu(2);
+            }while(step != 0);
+        }
+        
+
+        static void Task3Menu()//TODO: Доделать, чтобы работало с визуальной частью из PrintMenu(3)
+        {
+            PrintMenu(3);
+            int step;
+            
+            do
+            {
+                GC.Collect();
+                step = Tools.InputNumInt(">> ", "Ошибка ввода");
+
+                switch (step)
+                {
+                    case 1:
+                    
+                    break;
+                    case 2:
+                    
+                    break;
+                    case 3:
+                    
+                    break;
+                    default:
+                    return;
+                }
+                PrintMenu(3);
+            } while (step != 0);
+        }
+        
     }
 }
