@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/lolomarka/study/OOPLAB11/OOPLAB11.csproj",
+      "projectUniqueName": "/home/lolomarka/study/OOPLAB11.2/OOPLAB11.csproj",
       "projectName": "OOPLAB11",
-      "projectPath": "/home/lolomarka/study/OOPLAB11/OOPLAB11.csproj",
+      "projectPath": "/home/lolomarka/study/OOPLAB11.2/OOPLAB11.csproj",
       "packagesPath": "/home/lolomarka/.nuget/packages/",
-      "outputPath": "/home/lolomarka/study/OOPLAB11/obj/",
+      "outputPath": "/home/lolomarka/study/OOPLAB11.2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/lolomarka/.nuget/NuGet/NuGet.Config"
