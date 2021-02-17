@@ -168,8 +168,33 @@ namespace OOPLAB11
             }
             return false;
         }
-        
 
+        public static bool IsNull<T>(T collection)
+        {
+            if (collection == null)
+            {
+                Console.WriteLine("Коллекция не создана");
+                return true;
+            }
+            return false;
+        }
+
+        public static bool IsNullOrEmpty<T,TK>(SortedDictionary<T,TK> collection)
+        {
+            if (IsNull((collection)))
+            {
+                return true;
+            }
+            else if (collection.Count == 0)
+            {
+                Console.WriteLine("Коллекция пуста");
+                return true;
+            }
+            return false;
+        }
+        
+        
+        
         public static bool IsNull<T>(Queue<T> queue)
         {
             if (queue == null)
@@ -180,7 +205,7 @@ namespace OOPLAB11
             return false;
         }
 
-        public static int ChooseType(string invMsg)
+        public static int ChooseType(string invMsg = "Выберите тип объекта: ")
         {
             int k = 0;
             while (k > 3 || k < 1)

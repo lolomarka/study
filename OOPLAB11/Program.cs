@@ -11,6 +11,13 @@ namespace OOPLAB11
 {
     class Program
     {
+        static void Main(string[] args)
+        {
+            Menu.RunMenu();
+        }
+
+        #region Task1
+
         private static Queue<Person> queue;
         private static Queue<Person> cQueue = new Queue<Person>();
 
@@ -40,10 +47,7 @@ namespace OOPLAB11
         }
         
         
-        static void Main(string[] args)
-        {
-            Menu.RunMenu();
-        }
+        
 
         ///Task1////
         public static void CreateQueue()
@@ -231,7 +235,7 @@ namespace OOPLAB11
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Console.WriteLine(e.Message);
             }
             
         }
@@ -276,7 +280,7 @@ namespace OOPLAB11
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Console.WriteLine(e.Message);
             }
         }
 
@@ -303,23 +307,23 @@ namespace OOPLAB11
                 
                 Console.WriteLine("Вывести кол-во Мужчин/Женщин/Неназванных каждого типа");
 
-                Console.WriteLine(CountSexByTypes<Employee>());
-                Console.WriteLine(CountSexByTypes<Engineer>());
-                Console.WriteLine(CountSexByTypes<Administration>());
+                Console.WriteLine(CountSexByTypes<Employee>(queue));
+                Console.WriteLine(CountSexByTypes<Engineer>(queue));
+                Console.WriteLine(CountSexByTypes<Administration>(queue));
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Console.WriteLine(e.Message);
             }
         }
 
-        static private string CountSexByTypes<T>()
+        static private string CountSexByTypes<T>(Queue<Person> pQueue)
         {
             int m = 0;
             int w = 0;
             int na = 0;
             
-            foreach (var person in queue)
+            foreach (var person in pQueue)
             {
                 Type a = person.GetType();
                 if (a.Equals(typeof(T)))
@@ -352,7 +356,7 @@ namespace OOPLAB11
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Console.WriteLine(e.Message);
                 throw;
             }
         }
@@ -416,7 +420,7 @@ namespace OOPLAB11
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Console.WriteLine(e.Message);
             }
         }
         
@@ -440,5 +444,293 @@ namespace OOPLAB11
                 return -1;
             }
         }
+
+        #endregion
+
+
+        #region Task2
+
+        static private SortedDictionary<string, Person> mySortedDictionary = new SortedDictionary<string, Person>();
+
+        public static SortedDictionary<string, Person> MySortedDictionary
+        {
+            get => mySortedDictionary;
+            set => mySortedDictionary = value;
+        }
+
+        static public void AddElementToDictionary(SortedDictionary<string, Person> sortedDictionary)
+        {
+            Person p;
+            
+            int k = Tools.ChooseType();
+            
+            try
+            {
+                switch (k)
+                {
+                    case 1:
+                        p = Generator.CreateNewEmployee();
+                        sortedDictionary.Add(p.Name,p);
+                        break;
+                    case 2:
+                        p = Generator.CreateNewEngineer();
+                        sortedDictionary.Add(p.Name,p);
+                        break;
+                    case 3:
+                        p = Generator.CreateNewAdministration();
+                        sortedDictionary.Add(p.Name,p);
+                        break;
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+        }
+
+        static public void DeleteElementToDictionary(SortedDictionary<string, Person> sortedDictionary)
+        {
+            string keyName = Tools.InputString("Введите имя объекта для удаления: ");
+
+            try
+            {
+                if (!sortedDictionary.Remove(keyName))
+                {
+                    throw new ArgumentException();
+                }
+                Console.WriteLine("Удаление произошло успешно");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            
+        }
+
+        static public void PrintSortedDictionary(SortedDictionary<string, Person> sortedDictionary)
+        {
+            foreach (var VARIABLE in sortedDictionary)
+            {
+                Console.WriteLine("Ключевое имя: {0}",VARIABLE.Key);
+                Console.WriteLine("Значение(Информация об объекте): ");
+                VARIABLE.Value.ShowInfo();
+                Console.WriteLine();
+            }
+        }
+
+        #region sdQuery1
+        static public void SortedDictionaryQuery1()
+        {
+            try
+            {
+                if (Tools.IsNullOrEmpty(mySortedDictionary))
+                    throw new Exception("Невозможно исполнить запрос!");
+                Console.WriteLine("Вывести кол-во элементов определённого типа");
+
+                int k = Tools.ChooseType();
+                Console.Write("Кол-во элементов заданного типа: ");
+                switch (k)
+                {
+                    case 1:
+                        Console.WriteLine(CountTypes<Employee>(MySortedDictionary));
+                        break;
+                    case 2:
+                        Console.WriteLine(CountTypes<Engineer>(MySortedDictionary));
+                        break;
+                    case 3:
+                        Console.WriteLine(CountTypes<Administration>(MySortedDictionary));
+                        break;
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            
+        }
+
+        static private int CountTypes<T>(SortedDictionary<string,Person> pSortedDictionary)
+        {
+            int k = 0;
+
+            foreach (var VARIABLE in pSortedDictionary)
+            {
+                Type a = VARIABLE.Value.GetType();
+                if (a.Equals(typeof(T)))
+                    k++;
+            }
+            return k;
+        }
+        #endregion
+
+
+        #region sdQuery2
+        
+        static public void SortedDictionaryQuery2()
+        {
+            try
+            {
+                if (Tools.IsNullOrEmpty(mySortedDictionary))
+                    throw new Exception("Невозможно исполнить запрос!");
+                Console.WriteLine("Вывести элементы определённого типа");
+
+                int k = Tools.ChooseType();
+                Console.WriteLine("Элементы заданного типа\nКЛЮЧ\n-----------\nЗНАЧЕНИЕ:\n");
+                switch (k)
+                {
+                    case 1:
+                        PrintSDictByTypes<Employee>(MySortedDictionary);
+                        break;
+                    case 2:
+                        PrintSDictByTypes<Engineer>(MySortedDictionary);
+                        break;
+                    case 3:
+                        PrintSDictByTypes<Administration>(MySortedDictionary);
+                        break;
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
+        }
+        
+        static private void PrintSDictByTypes<T>(SortedDictionary<string,Person> pSortedDictionary)
+        {
+            foreach (var VARIABLE in pSortedDictionary)
+            {
+                Type a = VARIABLE.Value.GetType();
+                if (a.Equals(typeof(T)))
+                {
+                    Console.WriteLine(VARIABLE.Key);
+                    Console.WriteLine("-----------");
+                    VARIABLE.Value.ShowInfo();
+                }
+            }
+        }
+        
+        
+
+        #endregion
+
+
+        #region sdQuery3
+
+        static public void SortedDictionaryQuery3()
+        {
+            try
+            {
+                if (Tools.IsNullOrEmpty(MySortedDictionary))
+                    throw new Exception("Невозможно исполнить запрос!");
+                
+                Console.WriteLine("Вывести кол-во Мужчин/Женщин/Неназванных каждого типа");
+
+                Console.WriteLine(CountSexByTypes<Employee>(MySortedDictionary));
+                Console.WriteLine(CountSexByTypes<Engineer>(MySortedDictionary));
+                Console.WriteLine(CountSexByTypes<Administration>(MySortedDictionary));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+
+        static private string CountSexByTypes<T>(SortedDictionary<string, Person> pSortedDictionary)
+        {
+            int m = 0;
+            int w = 0;
+            int na = 0;
+
+            foreach (var VARIABLE in pSortedDictionary)
+            {
+                Type a = VARIABLE.Value.GetType();
+                if (a.Equals(typeof(T)))
+                {
+                    if (VARIABLE.Value.Sex == 'М')
+                        m++;
+                    else if (VARIABLE.Value.Sex == 'Ж')
+                        w++;
+                    else
+                        na++;
+                }
+            }
+            
+            return $"Тип {typeof(T).ToString()}\nМужчин: {m}\nЖенщин: {w}\nНеизвестно: {na}";
+        }
+
+        #endregion
+
+
+        public static void SortedDictionaryCloning()
+        {
+            try
+            {
+                if (Tools.IsNullOrEmpty(MySortedDictionary))
+                    throw new Exception("Коллекция пуста, нечего клоннировать!");
+
+                SortedDictionary<string,Person> сSortedDict = new SortedDictionary<string, Person>(MySortedDictionary);
+                
+                Console.WriteLine("Основная коллекция:");
+                PrintSortedDictionary(MySortedDictionary);
+                Console.WriteLine("Клонированная коллекция");
+                PrintSortedDictionary(сSortedDict);
+                
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw;
+            }
+        }
+
+        public static void SearchInSortedDictionary()
+        {
+            try
+            {
+                if (Tools.IsNullOrEmpty(MySortedDictionary))
+                    throw new Exception("Коллекция пуста или неинициализированна, невозможно выполнить поиск!");
+
+                SortedDictionary<string, Person> buffSDict = new SortedDictionary<string, Person>(MySortedDictionary);
+
+                string name = Tools.InputString("Введите ключ - имя элемента коллекции: ");
+
+                if (buffSDict.ContainsKey(name))
+                {
+                    Console.WriteLine($"Элемент с заданным ключом найден. Его номер в словаре: {IndexOfName(buffSDict,name) + 1}");
+                    buffSDict[name].ShowInfo();
+                }
+                else
+                {
+                    Console.WriteLine("Элемента с заданным ключом не обнаруженно");
+                }
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+
+        public static int IndexOfName(SortedDictionary<string, Person> pSortedDictionary, string name)
+        {
+            int index = 0;
+            foreach (var VARIABLE in pSortedDictionary)
+            {
+                if (Equals(VARIABLE.Key, name))
+                    return index;
+                index++;
+            }
+
+            return -1;
+        }
+        
+        #endregion
+
+        #region Task3
+
+        
+
+        #endregion
     }
 }

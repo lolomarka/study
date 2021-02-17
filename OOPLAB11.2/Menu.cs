@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using OOPlab10;
 
 namespace OOPLAB11
@@ -19,10 +20,10 @@ namespace OOPLAB11
                     Console.WriteLine("2. Задание 2");
                     break;
                 case 2://TODO: Заменить строчки
-                    Console.WriteLine("\tЗадание 2");
-                    Console.WriteLine("1. Демонстрация перегрузки инкременты и декременты");
-                    Console.WriteLine("2. Демонстрация перегрузки преобразования типов");
-                    Console.WriteLine("3. Демонстрация перегрузки операторов сравнения");
+                    Console.WriteLine("\tЗадание 2\nSortedDictionary<T,K>");
+                    Console.WriteLine("1. Добавить элемент в коллекцию");
+                    Console.WriteLine("2. Удалить элемент из коллекции");
+                    Console.WriteLine("3. Печать элементов коллекции");
                     break;
                 default:
                     Console.WriteLine("Ошибка!");
@@ -40,18 +41,18 @@ namespace OOPLAB11
             do
             {
                 Console.Clear();
-                PrintMenu(0);
-                step = Tools.InputNumInt("> ", "Неверное число");
+                PrintMenu(2);
+                step = 2;
                 switch (step)
                 {
                     case 2:
                         Task2Menu();
-                        PrintMenu(0);
+                        PrintMenu(2);
                         break;
                     case 0:
                         break;
                     case 10:
-                        PrintMenu(0);
+                        PrintMenu(2);
                         break;
                     default:
                         Console.WriteLine("Неверный шаг");
@@ -74,17 +75,30 @@ namespace OOPLAB11
                 switch(step)
                 {
                     case 1:
-                        
+                        Program.AddElementToDictionary(Program.MySortedDictionary);
                         break;
                     case 2:
-                        
+                        Program.DeleteElementToDictionary(Program.MySortedDictionary);
                         break;
                     case 3:
+                        try
+                        {
+                            if (Tools.IsNullOrEmpty(Program.MySortedDictionary))
+                                throw new Exception("Коллекция или пуста, или не инициализированна.\nНечего выводить!");
+                            Program.PrintSortedDictionary(Program.MySortedDictionary);
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e.Message);
+                        }
                         
                         break;
                     default:
+                        Environment.Exit(0);
                         return;
                 }
+                
+                Tools.Wait();
 
                 PrintMenu(2);
             }while(step != 0);
