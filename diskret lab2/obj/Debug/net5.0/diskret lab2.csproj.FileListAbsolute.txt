@@ -14,3 +14,19 @@ C:\Users\marks\OneDrive\Рабочий стол\diskret lab2\obj\Debug\net5.0\di
 C:\Users\marks\OneDrive\Рабочий стол\diskret lab2\obj\Debug\net5.0\ref\diskret lab2.dll
 C:\Users\marks\OneDrive\Рабочий стол\diskret lab2\obj\Debug\net5.0\diskret lab2.pdb
 C:\Users\marks\OneDrive\Рабочий стол\diskret lab2\obj\Debug\net5.0\diskret lab2.genruntimeconfig.cache
+C:\repos\study\diskret lab2\bin\Debug\net5.0\diskret lab2.exe
+C:\repos\study\diskret lab2\bin\Debug\net5.0\diskret lab2.deps.json
+C:\repos\study\diskret lab2\bin\Debug\net5.0\diskret lab2.runtimeconfig.json
+C:\repos\study\diskret lab2\bin\Debug\net5.0\diskret lab2.runtimeconfig.dev.json
+C:\repos\study\diskret lab2\bin\Debug\net5.0\diskret lab2.dll
+C:\repos\study\diskret lab2\bin\Debug\net5.0\ref\diskret lab2.dll
+C:\repos\study\diskret lab2\bin\Debug\net5.0\diskret lab2.pdb
+C:\repos\study\diskret lab2\obj\Debug\net5.0\diskret lab2.csprojAssemblyReference.cache
+C:\repos\study\diskret lab2\obj\Debug\net5.0\diskret lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\study\diskret lab2\obj\Debug\net5.0\diskret lab2.AssemblyInfoInputs.cache
+C:\repos\study\diskret lab2\obj\Debug\net5.0\diskret lab2.AssemblyInfo.cs
+C:\repos\study\diskret lab2\obj\Debug\net5.0\diskret lab2.csproj.CoreCompileInputs.cache
+C:\repos\study\diskret lab2\obj\Debug\net5.0\diskret lab2.dll
+C:\repos\study\diskret lab2\obj\Debug\net5.0\ref\diskret lab2.dll
+C:\repos\study\diskret lab2\obj\Debug\net5.0\diskret lab2.pdb
+C:\repos\study\diskret lab2\obj\Debug\net5.0\diskret lab2.genruntimeconfig.cache
