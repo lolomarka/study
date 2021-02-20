@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPLAB11TEST", "OOPLAB11TEST.csproj", "{6BA1A6F8-B385-45D1-83EC-8644C4E63E99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPLAB11", "..\OOPLAB11\OOPLAB11.csproj", "{2153D3EC-B44A-40DD-9645-DE09F10DBEC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{6BA1A6F8-B385-45D1-83EC-8644C4E63E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BA1A6F8-B385-45D1-83EC-8644C4E63E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BA1A6F8-B385-45D1-83EC-8644C4E63E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2153D3EC-B44A-40DD-9645-DE09F10DBEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2153D3EC-B44A-40DD-9645-DE09F10DBEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2153D3EC-B44A-40DD-9645-DE09F10DBEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2153D3EC-B44A-40DD-9645-DE09F10DBEC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

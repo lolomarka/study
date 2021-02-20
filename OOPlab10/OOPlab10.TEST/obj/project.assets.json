@@ -5638,34 +5638,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marks\\.nuget\\packages\\": {}
+    "/home/lolomarka/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\study\\OOPlab10\\OOPlab10.TEST\\OOPlab10.TEST.csproj",
+      "projectUniqueName": "/home/lolomarka/study/OOPlab10/OOPlab10.TEST/OOPlab10.TEST.csproj",
       "projectName": "OOPlab10.TEST",
-      "projectPath": "C:\\repos\\study\\OOPlab10\\OOPlab10.TEST\\OOPlab10.TEST.csproj",
-      "packagesPath": "C:\\Users\\marks\\.nuget\\packages\\",
-      "outputPath": "C:\\repos\\study\\OOPlab10\\OOPlab10.TEST\\obj\\",
+      "projectPath": "/home/lolomarka/study/OOPlab10/OOPlab10.TEST/OOPlab10.TEST.csproj",
+      "packagesPath": "/home/lolomarka/.nuget/packages/",
+      "outputPath": "/home/lolomarka/study/OOPlab10/OOPlab10.TEST/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marks\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/lolomarka/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\repos\\study\\OOPlab10\\OOPlab10\\OOPlab10.csproj": {
-              "projectPath": "C:\\repos\\study\\OOPlab10\\OOPlab10\\OOPlab10.csproj"
+            "/home/lolomarka/study/OOPlab10/OOPlab10/OOPlab10.csproj": {
+              "projectPath": "/home/lolomarka/study/OOPlab10/OOPlab10/OOPlab10.csproj"
             }
           }
         }
@@ -5716,7 +5714,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/5.0.103/RuntimeIdentifierGraph.json"
       }
     }
   }

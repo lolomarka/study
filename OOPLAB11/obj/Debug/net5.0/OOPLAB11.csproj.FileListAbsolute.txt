@@ -14,5 +14,6 @@
 /home/lolomarka/study/OOPLAB11/obj/Debug/net5.0/ref/OOPLAB11.dll
 /home/lolomarka/study/OOPLAB11/obj/Debug/net5.0/OOPLAB11.pdb
 /home/lolomarka/study/OOPLAB11/obj/Debug/net5.0/OOPLAB11.genruntimeconfig.cache
-/home/lolomarka/study/OOPLAB11/bin/Debug/net5.0/classlib.dll
 /home/lolomarka/study/OOPLAB11/obj/Debug/net5.0/OOPLAB11.csproj.CopyComplete
+/home/lolomarka/study/OOPLAB11/bin/Debug/net5.0/OOPlab10.dll
+/home/lolomarka/study/OOPLAB11/bin/Debug/net5.0/OOPlab10.pdb

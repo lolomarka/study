@@ -41,6 +41,14 @@ namespace OOPlab10
             set{ this.position = value;}
         }
 
+        public Person Base
+        {
+            get
+            {
+                return new Person(Name,Age,Sex);
+            }
+        }
+
         //Методы
         /// <summary>
         /// Генерирует строку с информацией об объекте

@@ -101,3 +101,4 @@
 /home/lolomarka/study/OOPLAB11TEST/obj/Debug/net5.0/ref/OOPLAB11TEST.dll
 /home/lolomarka/study/OOPLAB11TEST/obj/Debug/net5.0/OOPLAB11TEST.pdb
 /home/lolomarka/study/OOPLAB11TEST/obj/Debug/net5.0/OOPLAB11TEST.genruntimeconfig.cache
+/home/lolomarka/study/OOPLAB11TEST/bin/Debug/net5.0/OOPLAB11

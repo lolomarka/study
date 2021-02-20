@@ -1,3 +1,4 @@
+using System.Globalization;
 using System;
 
 namespace OOPlab10
@@ -43,6 +44,14 @@ namespace OOPlab10
         {
             get { return this.numOfDeputy;}
             set {this.numOfDeputy = Math.Abs(value);}
+        }
+
+        public new Employee Base
+        {
+            get
+            {
+                return new Employee(Name,Age,Sex,Position);
+            }
         }
 
         //Методы
