@@ -1,15 +1,11 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Collections.Immutable;
 using System.Linq;
-using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Runtime.Remoting;
 using OOPlab10;
 namespace OOPLAB11
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -446,8 +442,7 @@ namespace OOPLAB11
         }
 
         #endregion
-
-
+        
         #region Task2
 
         static private SortedDictionary<string, Person> mySortedDictionary = new SortedDictionary<string, Person>();
@@ -729,8 +724,153 @@ namespace OOPLAB11
 
         #region Task3
 
-        
+        public static void CreateColl(ref TestCollections<Person, Employee> coll, int size)
+        {
+            Queue<Employee> valsQueue = new Queue<Employee>();
+            Queue<Person> keysQueue = new Queue<Person>();
 
+            for (int i = 0; i < size; i++)
+            {
+                Employee emp = Generator.CreateNewEmployee();
+                Person p = emp.Base;
+
+                while (keysQueue.Contains(p))
+                {
+                    emp = Generator.CreateNewEmployee();
+                    p = emp.Base;
+                }
+                
+                valsQueue.Enqueue(emp);
+                keysQueue.Enqueue(p);
+            }
+
+            coll = new TestCollections<Person, Employee>(valsQueue, keysQueue);
+        }
+
+        public static void AddElem(ref TestCollections<Person,Employee> coll)
+        {
+            if (IsNull(coll)) return;
+
+            Employee emp = Generator.CreateNewEmployee();
+
+            coll.Add(emp.Base, emp);
+        }
+
+        public static void DelElem(ref TestCollections<Person, Employee> coll)
+        {
+            if (IsNull(coll)) return;
+            Person p = Generator.CreateNewEmployee().Base;              //Функция не была написана изначально. (Костыль)
+            coll.Remove(p);
+        }
+
+        private static bool IsNull(TestCollections<Person, Employee> coll)
+        {
+            if (coll == null)
+            {
+                Console.WriteLine("Коллекция не создана");
+                return true;
+            }
+
+            return false;
+        }
+
+        public static bool TestSearch(TestCollections<Person, Employee> coll, int index)
+        {
+            if (IsNull(coll)) return false;
+
+            string element;
+
+            Queue<Person> keys = /*(Queue<Person>)*/ coll.Keys;
+            Queue<Employee> values = /*(Queue<Employee>)*/ coll.Values;
+            Queue<string> strings = /*(Queue<string>)*/ coll.Strings;
+
+            Person p = null, pNew;
+            Employee emp = null, empNew;
+            string str = null, strNew;
+
+            if (index > -1)
+            {
+                // Индекс Person
+                int pIndex = 0;
+                foreach (Person pItem in keys)
+                {
+                    if (pIndex == index)
+                        p = pItem;
+                    else
+                    {
+                        pIndex++;
+                    }
+                }
+                // Индекс Employee
+                int empIndex = 0;
+                foreach (Employee empItem in values)
+                {
+                    if (empIndex == index)
+                        emp = empItem;
+                    else
+                    {
+                        empIndex++;
+                    }
+                }
+                // Индекс string
+                int strIndex = 0;
+                foreach (string strItem in strings)
+                {
+                    if (strIndex == index)
+                        str = strItem;
+                    else
+                    {
+                        strIndex++;
+                    }
+                }
+
+                pNew = new Person(p.Name, p.Age, p.Sex);
+                empNew = new Employee(emp.Name, emp.Age, emp.Sex, emp.Position);
+                strNew = new string(str);
+            }
+            else
+            {
+                p = keys.Peek();
+                emp = values.Peek();
+                str = strings.Peek();
+
+                pNew = new Person(p.Name + "1", p.Age, p.Sex);
+                empNew = new Employee(emp.Name + "1", emp.Age, emp.Sex, emp.Position);
+                strNew = new string(str + "1");
+            }
+
+            if (index == 0)
+                element = "ПЕРВЫЙ";
+            else if (index == coll.Count - 1)
+                element = "ПОСЛЕДНИЙ";
+            else if (index == coll.Count / 2)
+                element = "ЦЕНТРАЛЬНЫЙ";
+            else
+                element = "НЕСУЩЕСТВУЮЩИЙ";
+
+            Console.WriteLine(element + ":\n");
+
+            bool isKeyInQueue = coll.SearchQueue(pNew);
+            Console.WriteLine("TKeyQueue - Найден: " + isKeyInQueue + "\n");
+            
+            bool isStrInQueue = coll.SearchQueue(strNew);
+            Console.WriteLine("StringQueue - Найден: " + isStrInQueue + "\n");
+            
+            bool isKeyInDict = coll.SearchDictKey(pNew);
+            Console.WriteLine("TKeyDict - Найден: " + isKeyInDict + "\n");
+
+            bool isStrInDict = coll.SearchDictKey(strNew);
+            Console.WriteLine("StrDict - Найден: " + isStrInDict + "\n");
+
+            bool isValueInDict = coll.SearchDictValue(empNew);
+            Console.WriteLine("ValueDict - Найден: " + isValueInDict + "\n");
+
+            return true;
+
+        }
+        
         #endregion
+
+       
     }
 }

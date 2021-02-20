@@ -1,3 +1,4 @@
+using System.Reflection.Metadata.Ecma335;
 using System;
 
 namespace OOPlab10
@@ -56,6 +57,14 @@ namespace OOPlab10
                 else
                     this.numOfSubdivision = Math.Abs(value);
                 }
+        }
+
+        public new Employee Base
+        {
+            get
+            {
+                return new Employee(Name,Age,Sex,Position);
+            }
         }
 
 

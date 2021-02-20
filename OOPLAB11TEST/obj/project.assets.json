@@ -1648,6 +1648,16 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "OOPLAB11/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/OOPLAB11.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OOPLAB11.dll": {}
+        }
       }
     }
   },
@@ -5611,30 +5621,36 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "OOPLAB11/1.0.0": {
+      "type": "project",
+      "path": "../OOPLAB11/OOPLAB11.csproj",
+      "msbuildProject": "../OOPLAB11/OOPLAB11.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.NET.Test.Sdk >= 16.7.1",
+      "OOPLAB11 >= 1.0.0",
       "coverlet.collector >= 1.3.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
     ]
   },
   "packageFolders": {
-    "/home/lolomarka/.nuget/packages/": {}
+    "C:\\Users\\marks\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/lolomarka/study/OOPLAB11TEST/OOPLAB11TEST.csproj",
+      "projectUniqueName": "C:\\repos\\study\\OOPLAB11TEST\\OOPLAB11TEST.csproj",
       "projectName": "OOPLAB11TEST",
-      "projectPath": "/home/lolomarka/study/OOPLAB11TEST/OOPLAB11TEST.csproj",
-      "packagesPath": "/home/lolomarka/.nuget/packages/",
-      "outputPath": "/home/lolomarka/study/OOPLAB11TEST/obj/",
+      "projectPath": "C:\\repos\\study\\OOPLAB11TEST\\OOPLAB11TEST.csproj",
+      "packagesPath": "C:\\Users\\marks\\.nuget\\packages\\",
+      "outputPath": "C:\\repos\\study\\OOPLAB11TEST\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/lolomarka/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\marks\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5645,7 +5661,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\repos\\study\\OOPLAB11\\OOPLAB11.csproj": {
+              "projectPath": "C:\\repos\\study\\OOPLAB11\\OOPLAB11.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5694,7 +5714,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

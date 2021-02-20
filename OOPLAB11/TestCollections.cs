@@ -1,11 +1,10 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 
 namespace OOPLAB11
 {
-    public class TestCollections<TKey,TValue>
+    public class TestCollections<TKey,TValue> : IDisposable
     {
         private static Queue<TKey> queueTKey;                           //Базовые
         private static Queue<string> queueString;                       //Базовые string
@@ -38,9 +37,9 @@ namespace OOPLAB11
             }
         }
 
-        public TestCollections(List<TValue> sourceVal, List<TKey> sourceKey)
+        public TestCollections(Queue<TValue> sourceVal, Queue<TKey> sourceKey)
         {
-            if (sourceKey.Count != sourceKey.Count)
+            if (sourceKey.Count != sourceVal.Count)
                 throw new ArgumentException("Параметры должны иметь одинаковый размер");
 
             queueTKey = new Queue<TKey>();
@@ -51,10 +50,12 @@ namespace OOPLAB11
 
             for (int i = 0; i < Count; i++)
             {
-                queueTKey.Enqueue(sourceKey[i]);    
-                queueString.Enqueue(sourceKey[i].ToString());
-                sortDictTKey.Add(sourceKey[i], sourceVal[i]);
-                sortDictString.Add(sourceKey[i].ToString(), sourceVal[i]);
+                TKey tempKey = sourceKey.Dequeue();
+                TValue tempValue = sourceVal.Dequeue();
+                queueTKey.Enqueue(tempKey);    
+                queueString.Enqueue(tempKey.ToString());
+                sortDictTKey.Add(tempKey, tempValue);
+                sortDictString.Add(tempKey.ToString(), tempValue);
             }
         }
 
@@ -255,7 +256,16 @@ namespace OOPLAB11
 
             return result;
         }
-        
+
+        public void Dispose()
+        {
+            queueTKey = new Queue<TKey>();
+            queueString = new Queue<string>();
+            sortDictTKey = new SortedDictionary<TKey, TValue>();
+            sortDictString = new SortedDictionary<string, TValue>();
+            Count = 0;
+            GC.Collect();
+        }
     }
 
     

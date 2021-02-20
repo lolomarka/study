@@ -1,8 +1,7 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
 using OOPlab10;
+// ReSharper disable once RedundantUsingDirective
+
 
 namespace OOPLAB11
 {
@@ -36,7 +35,7 @@ namespace OOPLAB11
                     Console.WriteLine("12. Поиск элемента в коллекции");
                     Console.WriteLine("13. Печать клонированной коллекции");
                     break;
-                case 2://TODO: Заменить строчки
+                case 2:
                     Console.WriteLine("\tЗадание 2\nSortedDictionary<T,K>");
                     Console.WriteLine("1. Добавить элемент в коллекцию");
                     Console.WriteLine("2. Удалить элемент из коллекции");
@@ -47,6 +46,20 @@ namespace OOPLAB11
                     Console.WriteLine("7. Клонировать коллекцию");
                     Console.WriteLine("8. Поиск по коллекции");
                     
+                    break;
+                case 3:
+                    Console.WriteLine("\tЗадание 3\nQueue<TKey>\tQueue<string>\nSortedDictionary<TKey,TValue>\nSortedDictionary<string,TValue>");
+                    Console.WriteLine("1. Создать коллекцию");
+                    Console.WriteLine("2. Добавить элемент");
+                    Console.WriteLine("3. Удалить элемент");
+                    Console.WriteLine("4. Печать");
+                    Console.WriteLine("5. Поиск первого");
+                    Console.WriteLine("6. Поиск центрального");
+                    Console.WriteLine("7. Поиск последнего");
+                    Console.WriteLine("8. Поиск несущ.");
+                    Console.WriteLine("44.Очистить консоль");
+                    Console.WriteLine("55.Печать меню");
+                    Console.WriteLine("0. Назад");
                     break;
                 default:
                     Console.WriteLine("Ошибка!");
@@ -252,10 +265,10 @@ namespace OOPLAB11
                 Tools.Wait();
 
                 PrintMenu(1);
-            }while(step != 0);
+            }while(true);
         }
         
-        static void Task2Menu()//TODO: Доделать, чтобы работало с визуальной частью из PrintMenu(2)
+        static void Task2Menu()
         {
             PrintMenu(2);
             int step;
@@ -316,12 +329,75 @@ namespace OOPLAB11
                 Tools.Wait();
 
                 PrintMenu(2);
-            }while(step != 0);
+            }while(true);
         }
 
         static void Task3Menu()
         {
-            //TODO:Написать реализацию
+            int step;
+            PrintMenu(3);
+
+            TestCollections<Person, Employee> coll = null;
+
+            do
+            {
+                
+                step = Tools.InputNumInt("> ");
+                
+                switch (step)
+                {
+                    case 1:
+                        Program.CreateColl(ref coll, Tools.InputNumOfElements("Размер коллекции: "));
+                        break;
+
+                    case 2:
+                        Program.AddElem(ref coll);
+                        break;
+
+                    case 3:
+                        Program.DelElem(ref coll);
+                        break;
+
+                    case 4:
+                        if (coll != null) coll.PrintColl();
+                        break;
+                        
+                    case 5:
+                        Program.TestSearch(coll, 0);
+                        break;
+
+                    case 6:
+                        if (coll != null) Program.TestSearch(coll, coll.Count / 2);
+                        break;
+
+                    case 7:
+                        if (coll != null) Program.TestSearch(coll, coll.Count - 1);
+                        break;
+
+                    case 8:
+                        Program.TestSearch(coll, -1);
+                        break;
+
+
+                    case 44:
+                        Console.Clear();
+                        PrintMenu(3);
+                        break;
+                    case 55:
+                        PrintMenu(3);
+                        break;
+
+                    case 0:
+                        break;
+
+                    default:
+                        Console.WriteLine("Неверный шаг");
+                        break;
+
+                }
+                Tools.Wait();
+                PrintMenu(3);
+            } while (step != 0);
         }
     }
 }

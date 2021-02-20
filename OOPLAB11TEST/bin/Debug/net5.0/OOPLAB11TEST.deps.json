@@ -9,11 +9,11 @@
       "OOPLAB11TEST/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "16.7.1",
+          "OOPLAB11": "1.0.0",
           "coverlet.collector": "1.3.0",
           "xunit": "2.4.1",
           "xunit.runner.visualstudio": "2.4.3",
-          "OOPlab10": "1.0.0.0",
-          "OOPLAB11": "1.0.0.0"
+          "OOPlab10": "1.0.0.0"
         },
         "runtime": {
           "OOPLAB11TEST.dll": {}
@@ -1042,7 +1042,7 @@
         "runtime": {
           "lib/netstandard2.0/xunit.abstractions.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "2.0.0.0"
           }
         }
       },
@@ -1089,17 +1089,14 @@
         }
       },
       "xunit.runner.visualstudio/2.4.3": {},
+      "OOPLAB11/1.0.0": {
+        "runtime": {
+          "OOPLAB11.dll": {}
+        }
+      },
       "OOPlab10/1.0.0.0": {
         "runtime": {
           "OOPlab10.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "OOPLAB11/1.0.0.0": {
-        "runtime": {
-          "OOPLAB11.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1750,12 +1747,12 @@
       "path": "xunit.runner.visualstudio/2.4.3",
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
     },
-    "OOPlab10/1.0.0.0": {
-      "type": "reference",
+    "OOPLAB11/1.0.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "OOPLAB11/1.0.0.0": {
+    "OOPlab10/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

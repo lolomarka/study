@@ -1,3 +1,4 @@
+using System.Security.Principal;
 using System.Threading.Tasks;
 using System.Xml.Xsl;
 using System.Security.Cryptography;
@@ -126,11 +127,33 @@ namespace OOPlab10
         /// <returns>int - возраст, или пробрассывается ошибка(если object == null)</returns>
         public virtual int CompareTo(object o)
         {
+            // Person tmp = o as Person;
+            // if(tmp != null)
+            //     {
+            //         return Age.CompareTo(tmp.Age);
+            //     }
+            // else
+            //     throw new ArgumentException();
             Person tmp = o as Person;
-            if(tmp != null)
-                return Age.CompareTo(tmp.Age);
-            else
-                throw new ArgumentException();
+            if (tmp != null)
+            {
+                // // var thisItem = this.Age.GetHashCode() ^ tmp.Age ^ tmp.Sex;
+                // // var tmpItem = tmp.Name.GetHashCode() ^ tmp.Age ^ tmp.Sex;
+                // var thisItem = this.GetHashCode();
+                // var tmpItem = tmp.GetHashCode();
+                // return thisItem.CompareTo(tmpItem);
+                
+                if (Name.CompareTo(tmp.Name) != 0)
+                    return Name.CompareTo(tmp.Name);
+                if (Age.CompareTo(tmp.Age) != 0)
+                    return Age.CompareTo(tmp.Age);
+                if (Sex.CompareTo(tmp.Sex) != 0)
+                    return Sex.CompareTo(tmp.Sex);
+                
+                return 0;
+
+            }
+            throw new ArgumentException();
         }
 
 
@@ -179,6 +202,11 @@ namespace OOPlab10
         public override int GetHashCode()
         {
             return this.name.GetHashCode() ^ Age ^ Sex;
+        }
+
+        override public string ToString()
+        {
+            return $"{Name}, Возраст: {Age}, Пол: {Sex}";
         }
     }
 }
