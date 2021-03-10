@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/lolomarka/study/lab12/lab12.csproj": {}
+  },
+  "projects": {
+    "/home/lolomarka/study/lab12/lab12.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/lolomarka/study/lab12/lab12.csproj",
+        "projectName": "lab12",
+        "projectPath": "/home/lolomarka/study/lab12/lab12.csproj",
+        "packagesPath": "/home/lolomarka/.nuget/packages/",
+        "outputPath": "/home/lolomarka/study/lab12/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lolomarka/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/5.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\marks\\.nuget\\packages\\": {}
+    "/home/lolomarka/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\study\\OOPLAB11\\OOPLAB11.csproj",
+      "projectUniqueName": "/home/lolomarka/study/OOPLAB11/OOPLAB11.csproj",
       "projectName": "OOPLAB11",
-      "projectPath": "C:\\repos\\study\\OOPLAB11\\OOPLAB11.csproj",
-      "packagesPath": "C:\\Users\\marks\\.nuget\\packages\\",
-      "outputPath": "C:\\repos\\study\\OOPLAB11\\obj\\",
+      "projectPath": "/home/lolomarka/study/OOPLAB11/OOPLAB11.csproj",
+      "packagesPath": "/home/lolomarka/.nuget/packages/",
+      "outputPath": "/home/lolomarka/study/OOPLAB11/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marks\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/lolomarka/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/5.0.200/RuntimeIdentifierGraph.json"
       }
     }
   }

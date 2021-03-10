@@ -29,6 +29,11 @@ namespace OOPLAB11
             return a;
         }
 
+        static public void Print(string str)
+        {
+            Console.WriteLine(str);
+        }
+        
         static public double InputNumDouble(string invMsg = "", string errMsg ="")//Ввод целового числа
         {
             Console.Write(invMsg);
