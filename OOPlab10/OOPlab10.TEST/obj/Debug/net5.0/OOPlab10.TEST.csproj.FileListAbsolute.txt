@@ -305,3 +305,6 @@ C:/repos/study/OOPlab10/OOPlab10.TEST/obj/Debug/net5.0/OOPlab10.TEST.genruntimec
 /home/lolomarka/study/OOPlab10/OOPlab10.TEST/obj/Debug/net5.0/ref/OOPlab10.TEST.dll
 /home/lolomarka/study/OOPlab10/OOPlab10.TEST/obj/Debug/net5.0/OOPlab10.TEST.pdb
 /home/lolomarka/study/OOPlab10/OOPlab10.TEST/obj/Debug/net5.0/OOPlab10.TEST.genruntimeconfig.cache
+/home/lolomarka/study/OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/OOPlab10.deps.json
+/home/lolomarka/study/OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/OOPlab10.runtimeconfig.json
+/home/lolomarka/study/OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/OOPlab10.runtimeconfig.dev.json

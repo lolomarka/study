@@ -2,36 +2,110 @@ using OOPlab10;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
 namespace L12
 {
-    public class TreeNode<T> where T: Person
+    public class TreeNode<T> where T: Person, new()
     {
         public TreeNode(T data)
         {
             Data = data;
         }
-        public T Data { get; set; }
+
+        public TreeNode(TreeNode<T> data)
+        {
+            this.Data = new T();
+            Data.Name = data.Data.Name;
+            Data.Age = data.Data.Age;
+            Data.Sex = data.Data.Sex;
+            this.Left = data.Left;
+            this.Right = data.Right;
+
+        }
+
+        public TreeNode<T> Clone()
+        {
+            return new TreeNode<T>(this);
+        }
+        
+        public T Data { get; private set; }
         public TreeNode<T> Left { get; set; }
         public TreeNode<T> Right { get; set; }
+        
+        
     }
+    
 
-    public class Tree<T> : IEnumerable<T> where T : Person
+    public class Tree<T> : IEnumerable<T>, ICloneable where T : Person, new()
     {
+        private  int _height;
+
+        public int Height
+        {
+            get
+            {
+                _height = HeightOfBinaryTree(Root);
+                return _height;
+            }
+        }
+
+        private int HeightOfBinaryTree(TreeNode<T> node)
+        {
+            if (node == null)
+            {
+                return 0;
+            }
+            else
+            {
+                return 1 + Math.Max(HeightOfBinaryTree(node.Left), HeightOfBinaryTree(node.Right));
+            }
+        }
+
         public Tree()
         {
             Root = null;
             Size = 0;
         }
 
-        public Tree(Stack<T> data)
+        // public Tree(Stack<T> data)
+        // {
+        //     Size = data.Count;
+        //     Root = IdealTree(ref data, data.Count);
+        // }
+
+        public Tree(ICollection<T> data)
         {
             Size = data.Count;
             Root = IdealTree(ref data, data.Count);
+        }
+        /// <summary>
+        /// Конструктор пустого дерева с заданным размером. 
+        /// </summary>
+        /// <param name="capacity">Размер</param>
+        public Tree(int capacity)
+        {
+            Size = capacity;
+
+            ICollection<T> p = new List<T>();
+            for (int i = 0; i < capacity; i++)
+            {
+                p.Add(null);   
+            }
             
+            
+            IdealTree(ref p, capacity);
+
         }
 
+        // public Tree(Tree<T> baseTree)
+        // {
+        //     Size = baseTree.Size;
+        //     ICollection<T> baseData = baseTree.ToList();
+        //     Root = IdealTree(ref baseData, baseData.Count);
+        // }
+       
+        
         //Обратный обход
         private void LCRPrint(TreeNode<T> node, ref string s, int spaces)
         {
@@ -76,20 +150,20 @@ namespace L12
             string founded = "";
             LCRSearch(Root, surname, ref count, ref founded);
 
-            ColorPrint.Print(founded, ConsoleColor.Cyan);
+            ColorPrint.Print(founded, ConsoleColor.Magenta);
 
             return count;
         }
 
         public void Print()
         {
-            if (IsEmpty()) return;
+            if (IsEmpty() && this.Count() == 0) return;
 
             string s = "";
 
             LCRPrint(Root, ref s, 0);
 
-            ColorPrint.Print(s, ConsoleColor.Cyan);
+            ColorPrint.Print(s, ConsoleColor.Magenta);
         }
 
         public bool Clear()
@@ -98,7 +172,7 @@ namespace L12
 
             Root = null;
             Size = 0;
-
+            GC.Collect();
             return true;
         }
 
@@ -112,11 +186,12 @@ namespace L12
             return false;
         }
 
-        public TreeNode<T> Root { get; private set; }
+        public TreeNode<T> Root { get; set; }
 
         public int Size { get; private set; }
 
-        private TreeNode<T> IdealTree(ref Stack<T> data, int size)
+
+        private TreeNode<T> IdealTree(ref ICollection<T>data, int size)
         {
             TreeNode<T> r;
             int nl, nr;
@@ -129,8 +204,9 @@ namespace L12
             nl = size / 2;
             nr = size - nl - 1;
 
-            T inserted = data.Pop();
-            //Console.WriteLine(inserted.ToString());
+            T inserted = data.First();
+            data.Remove(data.First());
+           
             r = new TreeNode<T>(inserted);
 
             r.Left = IdealTree(ref data, nl);
@@ -139,15 +215,45 @@ namespace L12
             return r;
         }
 
+      
+
+        // private TreeNode<T> IdealTree(ref Tree<T> data, int size)
+        // {
+        //     TreeNode<T> r;
+        //     int nl, nr;
+        //
+        //     if (size == 0)
+        //     {
+        //         return null;
+        //     }
+        //
+        //     nl = size / 2;
+        //     nr = size - nl - 1;
+        //
+        //     ICollection<T> lData = data.ToList();
+        //
+        //     T inserted = lData.First();
+        //     lData.Remove(lData.First());
+        //
+        //     r = new TreeNode<T>(inserted);
+        //     
+        //     r.Left = IdealTree(ref lData, nl);
+        //     r.Right = IdealTree(ref lData, nr);
+        //
+        //     return r;
+        // }
+        
+
         public TreeNode<T> Insert(TreeNode<T> root, T data)
         {
 
             if (root == null)
             {
                 root = new TreeNode<T>(data);
+                Size++;
                 return root;
             }
-
+            
             Person rp = root.Data;
             Person dp = data;
 
@@ -162,7 +268,16 @@ namespace L12
                 root.Left = Insert(root.Left, data);
             }
 
+            
             return root;
+        }
+
+        public void AddRange(ICollection<T> plist)
+        {
+            foreach (var p in plist)
+            {
+                this.Insert(this.Root, p);
+            }
         }
 
         public void ToList(ref List<T> output, TreeNode<T> node)
@@ -176,6 +291,17 @@ namespace L12
                 ToList(ref output, node.Right);
             }
         }
+
+        // public List<TreeNode<T>> ToList()
+        // {
+        //     var tmp = new List<TreeNode<T>>();
+        //     foreach (var item in this)
+        //     {
+        //         tmp.Add(new TreeNode<T>(item));
+        //     }
+        //
+        //     return tmp;
+        // }
 
         public void ToSearchTree()
         {
@@ -202,10 +328,49 @@ namespace L12
         }
 
 
-
         IEnumerator IEnumerable.GetEnumerator()
         {
             return ((IEnumerable)this).GetEnumerator();
+        }
+
+        // private TreeNode<T> IdealTree(ref Stack<T> data, int size)
+        // {
+        //     TreeNode<T> r;
+        //     int nl, nr;
+        //
+        //     if (size == 0) 
+        //     {
+        //         return null;
+        //     }
+        //
+        //     nl = size / 2;
+        //     nr = size - nl - 1;
+        //
+        //     T inserted = data.Pop();
+        //     //Console.WriteLine(inserted.ToString());
+        //     r = new TreeNode<T>(inserted);
+        //
+        //     r.Left = IdealTree(ref data, nl);
+        //     r.Right = IdealTree(ref data, nr);
+        //
+        //     return r;
+        // }
+
+        public object Clone()
+        {
+            var clone = new Tree<T>();
+            for (int i = 0; i < this.Size; i++)
+            {
+                clone.Insert(clone.Root, this.ToList()[i]);
+            }
+
+            clone.Root = new TreeNode<T>(Root);
+            return clone;
+        }
+
+        public Tree<T> Copy()
+        {
+            return this;
         }
 
         IEnumerator<T> IEnumerable<T>.GetEnumerator()

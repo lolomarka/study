@@ -17,7 +17,7 @@ namespace L12
             Console.WriteLine("1. 1Направленный Список\n" +
                               "2. 2Направленный Список\n" +
                               "3. Дерево\n" +
-                              "4. Однонаправленный список\n" +
+                              "4. Ид.Сб.Дерево\n" +
                               "0. Выход\n +");
         }
 
@@ -49,7 +49,7 @@ namespace L12
                         break;
                     case 4:
                         Console.Clear();
-                        Task2OWLinkedList.RunMenu();
+                        Task2Tree.RunMenu();
                         PrintMenu();
                         break;
                     case 0:

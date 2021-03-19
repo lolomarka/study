@@ -14,4 +14,16 @@
     </Reference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="lab12Test\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="lab12Test\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="lab12Test\**" />
+  </ItemGroup>
+
 </Project>

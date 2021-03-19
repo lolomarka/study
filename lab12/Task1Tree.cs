@@ -2,6 +2,7 @@
 using OOPlab10;
 using OOPLAB11;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
@@ -14,9 +15,10 @@ namespace L12
             Console.WriteLine("  ИД. БАЛАНС. ДЕРЕВО\n" +
                 "1. Создать\n" +
                 "2. Поиск по ключу (фамилия)\n" +
-                "3. Печать\n" +
-                "4. Удалить из памяти\n" +
-                "5. В дерево поиска\n" +
+                "3. Высота дерева\n"+
+                "4. Печать\n" +
+                "5. Удалить из памяти\n" +
+                "6. В дерево поиска\n" +
                 "44. Очистить консоль\n" +
                 "55. Печать меню\n" +
                 "0. Назад\n");
@@ -25,12 +27,13 @@ namespace L12
         public static void RunMenu()
         {
             int step;
-            PrintMenu();
+            
 
             Tree<Person> tree = null;
 
             do
             {
+                PrintMenu();
                 step = Tools.InputNumInt("> ");
 
                 switch (step)
@@ -44,13 +47,21 @@ namespace L12
                         TreeSearch(tree, Console.ReadLine());
                         break;
                     case 3:
-                        Print(tree);
+                        PrintTreeHeight(tree);
                         break;
                     case 4:
+                        Print(tree);
+                        break;
+                    case 5:
                         Clear(tree);
+
+                        #region clear
+                        tree = null;
+                        GC.Collect();
+                        #endregion
                         break;
 
-                    case 5:
+                    case 6:
                         if (IsNull(tree)) break;
                         tree.ToSearchTree();
                         break;
@@ -78,6 +89,28 @@ namespace L12
             if (IsNull(tree)) return;
 
             tree.Print();
+        }
+
+        public static void PrintTreeHeight(Tree<Person> tree)
+        {
+            try
+            {
+                if (tree.Height > 0)
+                {
+                    ColorPrint.Success("Высота дерева ");
+                    ColorPrint.Print(tree.Height+"\n", ConsoleColor.Yellow);
+                }
+                else
+                {
+                    ColorPrint.Error("Высота дерева " + 0 + "\n");
+                }
+            }
+            catch (Exception e)
+            {
+                ColorPrint.Error("Дерево не созданно. Описание ошибки " + e.Message);
+                
+            }
+            
         }
 
         public static void Clear(Tree<Person> tree)
@@ -124,7 +157,9 @@ namespace L12
             //    item.Print();
             //}
 
-            tree = new Tree<Person>(stack);
+            ICollection<Person> pColl = stack.ToArray();
+            
+            tree = new Tree<Person>(pColl);
 
             if (tree.Size == size)
                 ColorPrint.Success("Дерево успешно создано\n");

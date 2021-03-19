@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using OOPlab10;
 using OOPLAB11;
 
@@ -11,7 +12,7 @@ namespace L12
         {
             Console.WriteLine("  ДВУНАПРВЛЕННЫЙ СПИСОК\n" +
                 "1. Создать\n" +
-                "2. Добавить элемент на указанную позицию (номер)\n" +
+                "2. Добавить элемент на 1,3,5... позицию (номер)\n" +
                 "3. Печать\n" +
                 "4. Удалить из памяти\n" +
                 "44. Очистить консоль\n" +
@@ -22,12 +23,13 @@ namespace L12
         public static void RunMenu()
         {
             int step;
-            PrintMenu();
+            
 
             TWLinkedList<Person> list = null;
 
             do
             {
+                PrintMenu();
                 step = Tools.InputNumInt();
 
                 switch (step)
@@ -37,7 +39,7 @@ namespace L12
                         break;
                     case 2:
                         if (IsNull(list)) break;
-                        AddAt(ref list, Tools.InputNumOfElements("Позиция [1..N]: "));
+                        AddOddElements(ref list);
                         break;
                     case 3:
                         Print(list);
@@ -93,6 +95,32 @@ namespace L12
             if (list.DeleteList())
                 ColorPrint.Success("Список успешно удален\n");
 
+        }
+
+        public static void AddOddElements(ref TWLinkedList<Person> list)
+        {
+            try
+            {
+                for (int i = 1; i <= list.Count(); i+=2)
+                {
+                    var p = Generator.CreateNewEmployee().Base;
+                    p.Name = "Добавленный: " + p.Name;
+                    list.AddAt(p, i);
+                }
+                var a = Generator.CreateNewEmployee().Base;
+                a.Name = "Добавленный: " + a.Name;
+                list.AddLast(a);
+                
+                ColorPrint.Success("Элементы добавлены\n");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw;
+            }
+            
+            
+            
         }
 
         public static void Create(out TWLinkedList<Person> list, int size)

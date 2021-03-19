@@ -11,7 +11,7 @@ namespace L12
         {
             Console.WriteLine("  ОДНОНАПРВЛЕННЫЙ СПИСОК\n" +
                 "1. Создать\n" +
-                "2. Удалить элементы с четными инф. полями (по возрасту)\n" +
+                "2. Удалить первый элемент с четными инф. полем\n" +
                 "3. Печать\n" +
                 "4. Удалить из памяти\n" +
                 "44. Очистить консоль\n" +
@@ -22,12 +22,13 @@ namespace L12
         public static void RunMenu()
         {
             int step;
-            PrintMenu();
+            
 
             OWLinkedList<Person> list = null;
 
             do
             {
+                PrintMenu();
                 step = Tools.InputNumInt("> ");
 
                 switch (step)
@@ -102,15 +103,18 @@ namespace L12
 
             foreach (Person item in list)
             {
+                deleted++;
                 if (item.Age % 2 == 0)
                 {
                     list.Remove(item);
-                    deleted++;
+                    
+                    ColorPrint.Print("Удалено: "+ item.ToString()+"\n",ConsoleColor.DarkCyan);
+                    break;              //Первый элемент(дальше выходим)
                 }    
             }
 
-            ColorPrint.Success("Удалено элементов: ");
-            Console.WriteLine(deleted);
+            
+            Console.WriteLine("Индекс: "+ deleted);
 
             return deleted;
         }
