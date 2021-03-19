@@ -1,15 +1,20 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Flolomarka_002Fstudy_002FOOPlab10_002FOOPlab10_002Fbin_002FDebug_002Fnet5_002E0_002FOOPlab10_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Flolomarka_002Fstudy_002FOOPLAB11_002Fbin_002FDebug_002Fnet5_002E0_002FOOPLAB11_002Edll/@EntryIndexedValue">True</s:Boolean>
-	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\marks\AppData\Local\JetBrains\Rider2020.3\resharper-host\temp\Rider\vAny\CoverageData\_OOPLAB11TEST.652228419\Snapshot\snapshot.utdcvr</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0140abec_002D7733_002D4527_002Db3c1_002D8a3220d85510/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;OOPLAB11TEST&amp;gt; #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Project Location="C:\repos\study\OOPLAB11TEST" Presentation="&amp;lt;OOPLAB11TEST&amp;gt;" /&gt;&#xD;
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0140abec_002D7733_002D4527_002Db3c1_002D8a3220d85510/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;OOPLAB11TEST&amp;gt; #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="C:\repos\study\OOPLAB11TEST" Presentation="&amp;lt;OOPLAB11TEST&amp;gt;" /&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a95d8f71_002D9c94_002D4164_002Dbd69_002D35b5111aa2a7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;OOPLAB11TEST&amp;gt; #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Project Location="C:\repos\study\OOPLAB11TEST" Presentation="&amp;lt;OOPLAB11TEST&amp;gt;" /&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a95d8f71_002D9c94_002D4164_002Dbd69_002D35b5111aa2a7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;OOPLAB11TEST&amp;gt; #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="C:\repos\study\OOPLAB11TEST" Presentation="&amp;lt;OOPLAB11TEST&amp;gt;" /&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d2a95f7d_002D6f07_002D462a_002D82a0_002Df0e0c5dfe1ea/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;OOPLAB11TEST&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Project Location="C:\repos\study\OOPLAB11TEST" Presentation="&amp;lt;OOPLAB11TEST&amp;gt;" /&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d2a95f7d_002D6f07_002D462a_002D82a0_002Df0e0c5dfe1ea/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;OOPLAB11TEST&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Solution /&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e01663a8_002D4be1_002D49d3_002Db4f0_002Dbef796ecd3ee/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="DelElemCountTest_CountMustBeNMinusOne" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::6BA1A6F8-B385-45D1-83EC-8644C4E63E99::net5.0::OOPLAB11TEST.ProgramTest.DelElemCountTest_CountMustBeNMinusOne&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	
 	</wpf:ResourceDictionary>

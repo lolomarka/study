@@ -5,43 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec1389e5-6a3d-4e04-9a3e-557bab1e7985" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TestCollection_Test.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net5.0/OOPLAB11.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net5.0/testhost.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net5.0/ref/OOPLAB11TEST.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPLAB11/Folder.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/Folder.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPLAB11/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/Menu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPLAB11/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPLAB11/TestCollections.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/TestCollections.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOPLAB11/bin/Debug/net5.0/OOPLAB11.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/bin/Debug/net5.0/OOPLAB11.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOPLAB11/bin/Debug/net5.0/OOPLAB11.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/bin/Debug/net5.0/OOPLAB11.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPLAB11/bin/Debug/net5.0/OOPlab10.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/bin/Debug/net5.0/OOPlab10.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPLAB11/bin/Debug/net5.0/OOPlab10.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/bin/Debug/net5.0/OOPlab10.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPLAB11/bin/Debug/net5.0/classlib.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPLAB11/bin/Debug/net5.0/OOPLAB11.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/bin/Debug/net5.0/OOPLAB11.runtimeconfig.dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOPLAB11/bin/Debug/net5.0/ref/OOPLAB11.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/bin/Debug/net5.0/ref/OOPLAB11.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPLAB11/obj/Debug/net5.0/OOPLAB11.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/obj/Debug/net5.0/OOPLAB11.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPLAB11/obj/Debug/net5.0/OOPLAB11.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/obj/Debug/net5.0/OOPLAB11.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPLAB11/obj/Debug/net5.0/OOPLAB11.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/obj/Debug/net5.0/OOPLAB11.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOPLAB11/obj/Debug/net5.0/OOPLAB11.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/obj/Debug/net5.0/OOPLAB11.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOPLAB11/obj/Debug/net5.0/OOPLAB11.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/obj/Debug/net5.0/OOPLAB11.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPLAB11/obj/Debug/net5.0/OOPLAB11.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/obj/Debug/net5.0/OOPLAB11.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOPLAB11/obj/Debug/net5.0/OOPLAB11.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/obj/Debug/net5.0/OOPLAB11.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOPLAB11/obj/Debug/net5.0/ref/OOPLAB11.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/obj/Debug/net5.0/ref/OOPLAB11.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPLAB11/obj/OOPLAB11.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/obj/OOPLAB11.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPLAB11/obj/OOPLAB11.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/obj/OOPLAB11.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPLAB11/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPLAB11/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPLAB11/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOPLAB11/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPLAB11/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OOPLAB11TEST/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OOPLAB11TEST/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OOPLAB11TEST/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OOPLAB11TEST/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOPLAB11TEST.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OOPLAB11TEST.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOPLAB11TEST.sln" beforeDir="false" afterPath="$PROJECT_DIR$/OOPLAB11TEST.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOPLAB11TEST.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/OOPLAB11TEST.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTest1.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/OOPLAB11.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/OOPLAB11.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/OOPLAB11.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/OOPLAB11.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/OOPLAB11TEST.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/OOPLAB11TEST.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/OOPLAB11TEST.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/OOPLAB11TEST.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/OOPLAB11TEST.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/OOPLAB11TEST.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/OOPLAB11TEST.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/OOPLAB11TEST.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/ref/OOPLAB11TEST.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/ref/OOPLAB11TEST.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/OOPLAB11TEST.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/OOPLAB11TEST.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/OOPLAB11TEST.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/OOPLAB11TEST.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/OOPLAB11TEST.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/OOPLAB11TEST.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/OOPLAB11TEST.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/OOPLAB11TEST.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/OOPLAB11TEST.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/OOPLAB11TEST.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/OOPLAB11TEST.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/OOPLAB11TEST.genruntimeconfig.cache" afterDir="false" />
@@ -53,123 +43,6 @@
       <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/Microsoft.TestPlatform.CommunicationUtilities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/Microsoft.TestPlatform.CommunicationUtilities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/Microsoft.TestPlatform.CoreUtilities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/Microsoft.TestPlatform.CoreUtilities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/Microsoft.TestPlatform.CrossPlatEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/Microsoft.TestPlatform.CrossPlatEngine.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/Microsoft.TestPlatform.PlatformAbstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/Microsoft.TestPlatform.PlatformAbstractions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/Microsoft.TestPlatform.Utilities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/Microsoft.TestPlatform.Utilities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/Newtonsoft.Json.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/Newtonsoft.Json.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/NuGet.Frameworks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/NuGet.Frameworks.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/OOPlab10" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/OOPlab10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/OOPlab10.TEST.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/OOPlab10.TEST.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/OOPlab10.TEST.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/OOPlab10.TEST.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/OOPlab10.TEST.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/OOPlab10.TEST.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/OOPlab10.TEST.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/OOPlab10.TEST.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/OOPlab10.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/OOPlab10.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/OOPlab10.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/OOPlab10.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/testhost.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/testhost.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/xunit.abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/xunit.abstractions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/xunit.assert.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/xunit.assert.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/xunit.core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/xunit.core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/xunit.execution.dotnet.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/xunit.execution.dotnet.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/bin/Debug/net5.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/Debug/net5.0/OOPlab10.TEST.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/Debug/net5.0/OOPlab10.TEST.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/Debug/net5.0/OOPlab10.TEST.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/Debug/net5.0/OOPlab10.TEST.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/Debug/net5.0/OOPlab10.TEST.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/Debug/net5.0/OOPlab10.TEST.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/Debug/net5.0/OOPlab10.TEST.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/Debug/net5.0/OOPlab10.TEST.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/Debug/net5.0/OOPlab10.TEST.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/Debug/net5.0/OOPlab10.TEST.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/Debug/net5.0/OOPlab10.TEST.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/Debug/net5.0/OOPlab10.TEST.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/Debug/net5.0/OOPlab10.TEST.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/Debug/net5.0/OOPlab10.TEST.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/OOPlab10.TEST.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/OOPlab10.TEST.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/OOPlab10.TEST.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/OOPlab10.TEST.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/OOPlab10.TEST.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/OOPlab10.TEST.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10.TEST/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10/Administration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10/Administration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10/Employee.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10/Engineer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10/Engineer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10/Person.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10/bin/Debug/net5.0/OOPlab10" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10/bin/Debug/net5.0/OOPlab10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10/bin/Debug/net5.0/OOPlab10.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10/bin/Debug/net5.0/OOPlab10.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10/bin/Debug/net5.0/OOPlab10.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10/bin/Debug/net5.0/OOPlab10.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10/bin/Debug/net5.0/classlib.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10/bin/Debug/net5.0/ref/OOPlab10.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10/bin/Debug/net5.0/ref/OOPlab10.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10/obj/Debug/net5.0/OOPlab10.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10/obj/Debug/net5.0/OOPlab10.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10/obj/Debug/net5.0/OOPlab10.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10/obj/Debug/net5.0/OOPlab10.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10/obj/Debug/net5.0/OOPlab10.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10/obj/Debug/net5.0/OOPlab10.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10/obj/Debug/net5.0/OOPlab10.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10/obj/Debug/net5.0/OOPlab10.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10/obj/Debug/net5.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10/obj/Debug/net5.0/apphost" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10/obj/Debug/net5.0/ref/OOPlab10.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10/obj/Debug/net5.0/ref/OOPlab10.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10/obj/OOPlab10.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10/obj/OOPlab10.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPlab10/OOPlab10/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPlab10/OOPlab10/obj/project.nuget.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +79,7 @@
     <property name="settings.editor.selected.configurable" value="RiderDotCoverFilteringPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="d2a95f7d-6f07-462a-82a0-f0e0c5dfe1ea">
+  <component name="RunManager" selected=".NET Project.OOPLAB11">
     <configuration name="OOPLAB11" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -236,6 +109,9 @@
       <updated>1613649925799</updated>
       <workItem from="1613649938230" duration="3141000" />
       <workItem from="1613796028265" duration="6956000" />
+      <workItem from="1613808227743" duration="154000" />
+      <workItem from="1614239999607" duration="185000" />
+      <workItem from="1614327657807" duration="243000" />
     </task>
     <servers />
   </component>
@@ -243,33 +119,44 @@
     <option name="version" value="3" />
   </component>
   <component name="UnitTestsCoverage.Settings">
-    <option name="coveragePercentColumnWidth" value="79" />
+    <option name="coveragePercentColumnWidth" value="66" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="2" />
-    <option name="symbolColumnWidth" value="401" />
+    <option name="symbolColumnWidth" value="331" />
     <coverage-tree-state>
       <expand>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 24% 1104/1446" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 37% 967/1525" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 24% 1104/1446" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="OOPLAB11 11% 1104/1243" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 37% 967/1525" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="OOPLAB11 22% 966/1243" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 24% 1104/1446" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="OOPLAB11 11% 1104/1243" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="OOPLAB11 11% 1104/1243" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 37% 967/1525" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="OOPLAB11 22% 966/1243" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="OOPLAB11 22% 966/1243" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 24% 1104/1446" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="OOPLAB11 11% 1104/1243" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="OOPLAB11 11% 1104/1243" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="TestCollections&lt;TKey,TValue&gt; 70% 61/200" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 37% 967/1525" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="OOPLAB11 22% 966/1243" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="OOPLAB11 22% 966/1243" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TestCollections&lt;TKey,TValue&gt; 80% 40/200" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 37% 967/1525" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="OOPLAB11TEST 99% 1/282" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 37% 967/1525" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="OOPLAB11TEST 99% 1/282" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="OOPLAB11TEST 99% 1/282" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
       </expand>
       <select />

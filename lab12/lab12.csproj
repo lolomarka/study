@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="OOPlab10, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\OOPlab10\OOPlab10\bin\Debug\net5.0\OOPlab10.dll</HintPath>
+    </Reference>
+    <Reference Include="OOPLAB11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\OOPLAB11\bin\Debug\net5.0\OOPLAB11.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="lab12Test\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="lab12Test\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="lab12Test\**" />
+  </ItemGroup>
+
+</Project>

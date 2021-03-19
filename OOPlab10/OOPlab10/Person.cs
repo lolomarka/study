@@ -14,7 +14,7 @@ namespace OOPlab10
     {
         private string name {get; set;}          //Имя персоны
         private int age {get; set;}              //Возраст персоны
-        private readonly char sex;               //Пол персоны
+        private char sex;               //Пол персоны
 
 
 
@@ -56,7 +56,7 @@ namespace OOPlab10
         {
             get {return this.sex;}
             
-            init                            //Ввод возможен только во время инициализации.
+            set                           //Ввод возможен только во время инициализации.
             {
                 if(value == 'M' || value == 'm' || value == 'М' || value == 'м')
                     this.sex = 'М';

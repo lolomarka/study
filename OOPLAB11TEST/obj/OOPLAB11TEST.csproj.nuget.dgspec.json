@@ -1,20 +1,72 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\study\\OOPLAB11TEST\\OOPLAB11TEST.csproj": {}
+    "/home/lolomarka/study/OOPLAB11TEST/OOPLAB11TEST.csproj": {}
   },
   "projects": {
-    "C:\\repos\\study\\OOPLAB11TEST\\OOPLAB11TEST.csproj": {
+    "/home/lolomarka/study/OOPLAB11/OOPLAB11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\study\\OOPLAB11TEST\\OOPLAB11TEST.csproj",
-        "projectName": "OOPLAB11TEST",
-        "projectPath": "C:\\repos\\study\\OOPLAB11TEST\\OOPLAB11TEST.csproj",
-        "packagesPath": "C:\\Users\\marks\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\study\\OOPLAB11TEST\\obj\\",
+        "projectUniqueName": "/home/lolomarka/study/OOPLAB11/OOPLAB11.csproj",
+        "projectName": "OOPLAB11",
+        "projectPath": "/home/lolomarka/study/OOPLAB11/OOPLAB11.csproj",
+        "packagesPath": "/home/lolomarka/.nuget/packages/",
+        "outputPath": "/home/lolomarka/study/OOPLAB11/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\marks\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/lolomarka/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/lolomarka/study/OOPLAB11TEST/OOPLAB11TEST.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/lolomarka/study/OOPLAB11TEST/OOPLAB11TEST.csproj",
+        "projectName": "OOPLAB11TEST",
+        "projectPath": "/home/lolomarka/study/OOPLAB11TEST/OOPLAB11TEST.csproj",
+        "packagesPath": "/home/lolomarka/.nuget/packages/",
+        "outputPath": "/home/lolomarka/study/OOPLAB11TEST/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lolomarka/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -26,8 +78,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\repos\\study\\OOPLAB11\\OOPLAB11.csproj": {
-                "projectPath": "C:\\repos\\study\\OOPLAB11\\OOPLAB11.csproj"
+              "/home/lolomarka/study/OOPLAB11/OOPLAB11.csproj": {
+                "projectPath": "/home/lolomarka/study/OOPLAB11/OOPLAB11.csproj"
               }
             }
           }
@@ -78,59 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\repos\\study\\OOPLAB11\\OOPLAB11.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\repos\\study\\OOPLAB11\\OOPLAB11.csproj",
-        "projectName": "OOPLAB11",
-        "projectPath": "C:\\repos\\study\\OOPLAB11\\OOPLAB11.csproj",
-        "packagesPath": "C:\\Users\\marks\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\study\\OOPLAB11\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\marks\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/5.0.103/RuntimeIdentifierGraph.json"
         }
       }
     }
