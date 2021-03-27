@@ -25,6 +25,8 @@ namespace OOPlab10
             this.numOfSubdivision = 1;
         }
 
+        
+        
 
         /// <summary>
         /// Конструктор с параметрами

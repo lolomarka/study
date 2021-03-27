@@ -86,7 +86,7 @@ namespace lab12Test
         {
             Tree<Person> tp = new Tree<Person>(10);
             
-            Assert.Equal(10,tp.Size);
+            Assert.Equal(0,tp.Size);
         }
 
         [Fact]

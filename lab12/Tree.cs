@@ -66,6 +66,7 @@ namespace L12
         {
             Root = null;
             Size = 0;
+            Capacity = 0;
         }
 
         // public Tree(Stack<T> data)
@@ -77,6 +78,7 @@ namespace L12
         public Tree(ICollection<T> data)
         {
             Size = data.Count;
+            Capacity = data.Count;
             Root = IdealTree(ref data, data.Count);
         }
         /// <summary>
@@ -85,18 +87,23 @@ namespace L12
         /// <param name="capacity">Размер</param>
         public Tree(int capacity)
         {
-            Size = capacity;
+            Size = 0;
+            Capacity = capacity;
 
-            ICollection<T> p = new List<T>();
+            ICollection<T> data = new List<T>();
+            
+            
             for (int i = 0; i < capacity; i++)
             {
-                p.Add(null);   
+                
+                data.Add((T) new Employee("null",0,'-',"null").Base);
+                
             }
-            
-            
-            IdealTree(ref p, capacity);
 
+            Root = IdealTree(ref data, capacity);
         }
+
+        public int Capacity { get; private set; }
 
         // public Tree(Tree<T> baseTree)
         // {
@@ -246,25 +253,36 @@ namespace L12
 
         public TreeNode<T> Insert(TreeNode<T> root, T data)
         {
-
             if (root == null)
             {
                 root = new TreeNode<T>(data);
                 Size++;
+                Capacity++;
                 return root;
+            }
+
+            
+            if (root.Data.Name.Equals("null"))
+            {
+                 
+                 root.Data.Name = data.Name;
+                 root.Data.Sex = data.Sex;
+                 root.Data.Age = data.Age;
+
+                 Size++;
+                 return root;
             }
             
             Person rp = root.Data;
             Person dp = data;
+            
 
-            if (dp.CompareTo(rp) < 0)
+            if (dp.CompareTo(rp) < 0 || (Capacity > Size && root.Right.Data.Name.Equals("null")))
             {
-                //ColorPrint.Print(dp.ToString() + " < " + rp.ToString() + '\n', ConsoleColor.DarkGray);
                 root.Right = Insert(root.Right, data);
             }
-            else
+            else 
             {
-                //ColorPrint.Print(rp.ToString() + " > " + dp.ToString() + '\n', ConsoleColor.DarkGray);
                 root.Left = Insert(root.Left, data);
             }
 

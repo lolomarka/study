@@ -14,7 +14,7 @@ namespace L12
     {
         public static void PrintMenu()
         {
-            Console.WriteLine("  Ид.Сб.Дерево\n" +
+            Console.WriteLine(" Дерево\n" +
                 "1. Создать пустое\n" +
                 "2. Создать заполненное\n" +
                 "3. Создать пустое с емкостью \n" +
@@ -265,7 +265,7 @@ namespace L12
             }
 
             ColorPrint.Print("Size: " + tree.Size + '\n', ConsoleColor.DarkMagenta);
-            
+            ColorPrint.Print("Capacity: " + tree.Capacity + '\n', ConsoleColor.DarkMagenta);
         }
 
         public static void Clear(LinkedListT2<Person> list)

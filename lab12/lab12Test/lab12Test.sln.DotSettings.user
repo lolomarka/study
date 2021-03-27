@@ -2,9 +2,9 @@
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Flolomarka_002Fstudy_002Flab12_002Fbin_002FDebug_002Fnet5_002E0_002Flab12_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Flolomarka_002Fstudy_002Flab12_002Fbin_002FDebug_002Fnet5_002E0_002FOOPlab10_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Flolomarka_002Fstudy_002Flab12_002Fbin_002FDebug_002Fnet5_002E0_002FOOPLAB11_002Edll/@EntryIndexedValue">True</s:Boolean>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2f01c45e_002Dd89f_002D49a3_002Daddd_002D7ab2ffd2887d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2f01c45e_002Dd89f_002D49a3_002Daddd_002D7ab2ffd2887d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;Solution /&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=752fa8b3_002D00e1_002D4255_002Db1fe_002Dea57662e1059/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="True" ContinuousTestingMode="3" IsActive="True" Name="OwNodeTConstructorTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=752fa8b3_002D00e1_002D4255_002Db1fe_002Dea57662e1059/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="True" ContinuousTestingMode="3" Name="OwNodeTConstructorTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;Solution /&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
