@@ -1,8 +1,8 @@
-﻿using OOPlab10;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using OOPlab10;
 
-namespace L13
+namespace lab13
 {
     public class Journal<T> where T : Person
     {

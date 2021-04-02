@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using L12;
 using OOPlab10;
 
-namespace L13
+namespace lab13
 {
     public class TreeEventArgs : EventArgs
     {
-        public string CollectionName { get; private set; }
-        public string ChangeType { get; private set; }
+        public string CollectionName { get; set; }
+        public string ChangeType { get; set; }
         
-        public object Object { get; private set; }
+        public object Object { get; set; }
         
         public TreeEventArgs(string name, string changeType, object obj)
         {
