@@ -18,7 +18,24 @@ namespace OOPlab10
             Random r = new Random();
             return r.Next(bound1,bound2 + 1);
         }
-        
+
+
+        public static Person CreateRandomHuman()
+        {
+            int s = RandInt(0, 3);
+
+            switch (s)
+            {
+                case 1:
+                    return CreateNewEmployee();
+                case 2:
+                    return CreateNewAdministration();
+                case 3:
+                    return CreateNewEngineer();
+                default:
+                    return CreateNewEmployee().Base;
+            }
+        }
         
         /// <summary>
         /// Случайный работник

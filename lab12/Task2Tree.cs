@@ -64,8 +64,7 @@ namespace L12
                         Print(tree);
                         break;
                     case 5:
-                        if (IsNull(tree)) break;
-                        tree.Insert(tree.Root, Generator.CreateNewEmployee().Base);
+                        if (tree != null) tree.Insert(Generator.CreateRandomHuman());
                         ColorPrint.Success("Элемент добавлен \n");
                         break;
 

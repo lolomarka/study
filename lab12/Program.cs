@@ -23,9 +23,10 @@ namespace L12
 
         public static void RunMenu()
         {
+            
             int step;
             PrintMenu();
-
+            
             do
             {
                 step = Tools.InputNumInt("> ");

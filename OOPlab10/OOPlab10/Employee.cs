@@ -105,8 +105,27 @@ namespace OOPlab10
         {
             return base.GetHashCode() ^ position.GetHashCode();
         }
-
-
-
+        
+        
+        // public override int CompareTo(object o)
+        // {
+        //     
+        //     //Employee tmp = o as Employee;
+        //     if (o is Employee tmp)
+        //     {
+        //         if (String.Compare(Name, tmp.Name, StringComparison.Ordinal) != 0)
+        //             return String.Compare(Name, tmp.Name, StringComparison.Ordinal);
+        //         if (Age.CompareTo(tmp.Age) != 0)
+        //             return Age.CompareTo(tmp.Age);
+        //         if (Sex.CompareTo(tmp.Sex) != 0)
+        //             return Sex.CompareTo(tmp.Sex);
+        //         if (String.Compare(position, tmp.position, StringComparison.Ordinal) != 0)
+        //             return String.Compare(position, tmp.position, StringComparison.Ordinal);
+        //     }
+        //     else
+        //        throw new ArgumentException();
+        //
+        //     return 0;
+        // }
     }
 }

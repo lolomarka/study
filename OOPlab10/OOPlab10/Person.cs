@@ -143,8 +143,8 @@ namespace OOPlab10
                 // var tmpItem = tmp.GetHashCode();
                 // return thisItem.CompareTo(tmpItem);
                 
-                if (Name.CompareTo(tmp.Name) != 0)
-                    return Name.CompareTo(tmp.Name);
+                if (String.Compare(Name, tmp.Name, StringComparison.Ordinal) != 0)
+                    return String.Compare(Name, tmp.Name, StringComparison.Ordinal);
                 if (Age.CompareTo(tmp.Age) != 0)
                     return Age.CompareTo(tmp.Age);
                 if (Sex.CompareTo(tmp.Sex) != 0)

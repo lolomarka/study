@@ -87,14 +87,14 @@ namespace OOPlab10
         /// </summary>
         /// <param name="o">Объект для сравнения</param>
         /// <returns></returns>
-        public override int CompareTo(object o)
-        {
-            Engineer engineer = o as Engineer;
-            if(engineer != null)
-                return Age.CompareTo(engineer.Age);
-            else
-                throw new ArgumentException();
-        }
+        // public override int CompareTo(object o)
+        // {
+        //     Engineer tmp = o as Engineer;
+        //     if(tmp != null)
+        //         return Age.CompareTo(tmp.Age);
+        //     else
+        //         throw new ArgumentException();
+        // }
 
         /// <summary>
         /// Поверхностное копирование

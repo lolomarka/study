@@ -66,14 +66,14 @@ namespace OOPlab10
             return str;
         }
 
-        public override int CompareTo(object o)
-        {
-            Administration administration = o as Administration;
-            if(administration != null)
-                return Age.CompareTo(administration.Age);
-            else
-                throw new ArgumentException();
-        }
+        // public override int CompareTo(object o)
+        // {
+        //     Administration administration = o as Administration;
+        //     if(administration != null)
+        //         return Age.CompareTo(administration.Age);
+        //     else
+        //         throw new ArgumentException();
+        // }
 
         /// <summary>
         /// Поверхностное копирование

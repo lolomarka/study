@@ -29,7 +29,7 @@ namespace L12
             return new TreeNode<T>(this);
         }
         
-        public T Data { get; private set; }
+        public T Data { get; set; }
         public TreeNode<T> Left { get; set; }
         public TreeNode<T> Right { get; set; }
         
@@ -67,6 +67,7 @@ namespace L12
             Root = null;
             Size = 0;
             Capacity = 0;
+            
         }
 
         // public Tree(Stack<T> data)
@@ -193,6 +194,41 @@ namespace L12
             return false;
         }
 
+        public  TreeNode<T> GetNode(int index)
+        {
+            List<TreeNode<T>> lst = new List<TreeNode<T>>();
+            ToList(ref lst,Root);
+
+            return lst[index];
+        }
+        
+        
+        // private static void ConvertTreeToList(TreeNode<T> root, List<T> result)
+        // {
+        //     if (root == null)
+        //     {
+        //         return;
+        //     }
+        //     
+        //     result.Add(root.Data);
+        //     ConvertTreeToList(root.Left, result);
+        //     ConvertTreeToList(root.Right, result);
+        // }
+        
+        
+        
+
+        
+        
+        private static IEnumerable<T> ConvertTreeToList(TreeNode<T> root)
+        {
+            if (root == null)
+                return Enumerable.Empty<T>();
+
+            return new[] { root.Data }
+                .Concat(ConvertTreeToList(root.Left))
+                .Concat(ConvertTreeToList(root.Right));
+        }
         public TreeNode<T> Root { get; set; }
 
         public int Size { get; private set; }
@@ -249,9 +285,13 @@ namespace L12
         //
         //     return r;
         // }
-        
 
-        public TreeNode<T> Insert(TreeNode<T> root, T data)
+        public void Insert(T data)
+        {
+            Root = Insert(Root, data);
+        }
+
+        private TreeNode<T> Insert(TreeNode<T> root, T data)
         {
             if (root == null)
             {
@@ -309,6 +349,21 @@ namespace L12
                 ToList(ref output, node.Right);
             }
         }
+
+        public void ToList(ref List<TreeNode<T>> output, TreeNode<T> node)
+        {
+            if (node != null)
+            {
+                output.Add(node);
+                
+                ToList(ref output, node.Left);
+                
+                ToList(ref output, node.Right);
+            }
+        }
+        
+
+        
 
         // public List<TreeNode<T>> ToList()
         // {
@@ -389,6 +444,41 @@ namespace L12
         public Tree<T> Copy()
         {
             return this;
+        }
+        
+        public void DeleteByKey(T key)
+        {
+            Root = deleteRec(Root, key);
+        }
+        
+        public T minValue(TreeNode<T> node)
+        {
+            T minv = node.Data;
+            while (node.Left != null)
+            {
+                minv = node.Left.Data;
+                node = node.Left;
+            }
+            return minv;
+        }
+        private TreeNode<T> deleteRec(TreeNode<T> root, T key)
+        {
+            if (root == null)
+                return null;
+            if (((IComparable)key).CompareTo(root.Data) < 0)
+                root.Left = deleteRec(root.Left, key);
+            else if (((IComparable)key).CompareTo(root.Data) > 0)
+                root.Right = deleteRec(root.Right, key);
+            else
+            {
+                if (root.Left == null)
+                    return root.Right;
+                else if (root.Right == null)
+                    return root.Left;
+                root.Data = minValue(root.Right);
+                root.Right = deleteRec(root.Right, root.Data);
+            }
+            return root;
         }
 
         IEnumerator<T> IEnumerable<T>.GetEnumerator()
