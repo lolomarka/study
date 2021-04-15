@@ -1,0 +1,81 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "L14/1.0.0": {
+        "dependencies": {
+          "lab12": "1.0.0.0",
+          "lab13": "1.0.0.0",
+          "OOPlab10": "1.0.0.0",
+          "OOPLAB11": "1.0.0.0"
+        },
+        "runtime": {
+          "L14.dll": {}
+        }
+      },
+      "lab12/1.0.0.0": {
+        "runtime": {
+          "lab12.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "lab13/1.0.0.0": {
+        "runtime": {
+          "lab13.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OOPlab10/1.0.0.0": {
+        "runtime": {
+          "OOPlab10.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OOPLAB11/1.0.0.0": {
+        "runtime": {
+          "OOPLAB11.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "L14/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "lab12/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "lab13/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OOPlab10/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OOPLAB11/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

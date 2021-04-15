@@ -54,7 +54,9 @@ namespace lab13
 
         public void OnCountChanged(object source, TreeEventArgs args)
         {
-            CountChanged?.Invoke(source,args);
+            CountChanged?.Invoke(source,args);                      //? - проверка на null; 
+            //Эквивалент
+            //if (CountChanged != null) CountChanged(source, args);
         }
 
         public void OnRefChanged(object source, TreeEventArgs args)

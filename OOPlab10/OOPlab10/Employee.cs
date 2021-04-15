@@ -105,8 +105,12 @@ namespace OOPlab10
         {
             return base.GetHashCode() ^ position.GetHashCode();
         }
-        
-        
+
+        public override string ToString()
+        {
+            return base.ToString() + $", {Position}";
+        }
+
         // public override int CompareTo(object o)
         // {
         //     

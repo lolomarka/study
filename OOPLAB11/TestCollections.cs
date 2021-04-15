@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using L12;
 
 namespace OOPLAB11
 {
@@ -88,7 +89,9 @@ namespace OOPLAB11
         {
             foreach (KeyValuePair<TKey, TValue> item in sortDictTKey)
             {
-                Console.WriteLine(item.Key.ToString() + " : " + item.Value.ToString());
+                ColorPrint.Print(item.Key.ToString(),ConsoleColor.Magenta);
+                Console.Write(" : ");
+                ColorPrint.Print(item.Value.ToString(),ConsoleColor.Yellow);
             }
         }
         public void PrintDictString()

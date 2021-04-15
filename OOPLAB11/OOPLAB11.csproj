@@ -8,6 +8,9 @@
     <Reference Include="classlib.dll">
       <HintPath> ./classlib.dll </HintPath>
     </Reference>
+    <Reference Include="lab12, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\lab12\bin\Debug\net5.0\lab12.dll</HintPath>
+    </Reference>
     <Reference Include="OOPlab10, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\OOPlab10\OOPlab10\bin\Debug\net5.0\OOPlab10.dll</HintPath>
     </Reference>

@@ -17,3 +17,5 @@
 /home/lolomarka/study/OOPLAB11/obj/Debug/net5.0/OOPLAB11.csproj.CopyComplete
 /home/lolomarka/study/OOPLAB11/bin/Debug/net5.0/OOPlab10.dll
 /home/lolomarka/study/OOPLAB11/bin/Debug/net5.0/OOPlab10.pdb
+/home/lolomarka/study/OOPLAB11/bin/Debug/net5.0/lab12.dll
+/home/lolomarka/study/OOPLAB11/bin/Debug/net5.0/lab12.pdb
