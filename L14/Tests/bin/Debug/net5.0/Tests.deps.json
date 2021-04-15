@@ -12,7 +12,10 @@
           "Microsoft.NET.Test.Sdk": "16.7.1",
           "coverlet.collector": "1.3.0",
           "xunit": "2.4.1",
-          "xunit.runner.visualstudio": "2.4.3"
+          "xunit.runner.visualstudio": "2.4.3",
+          "lab12": "1.0.0.0",
+          "OOPlab10": "1.0.0.0",
+          "OOPLAB11": "1.0.0.0"
         },
         "runtime": {
           "Tests.dll": {}
@@ -1093,6 +1096,14 @@
           "L14.dll": {}
         }
       },
+      "lab12/1.0.0.0": {
+        "runtime": {
+          "lab12.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "OOPlab10/1.0.0.0": {
         "runtime": {
           "OOPlab10.dll": {
@@ -1756,6 +1767,11 @@
     },
     "L14/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "lab12/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
