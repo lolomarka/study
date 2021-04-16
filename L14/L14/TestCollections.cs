@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using L12;
 
-namespace OOPLAB11
+namespace L14
 {
     public class TestCollections<TKey,TValue> : IDisposable, IEnumerable<TValue>
     {
